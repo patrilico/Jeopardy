@@ -17,6 +17,12 @@ Game state and scores are held in memory while the server is running. A disconne
 
 The server listens on all local interfaces by default. To change the bind address or port, set `HOST` or `PORT` in the ignored `.env` file; see [.env.example](./.env.example). Set `HOST=127.0.0.1` to accept connections only from this computer.
 
+The host screen asks for a PIN (default `1234`). Set `HOST_PIN` in `.env` or in Render's environment variables to change it.
+
+## Resetting the game
+
+On the host screen, **Reset game for new players** (with a confirmation) clears all players, scores and the loaded game, then sends every connected device back to the role screen. Use it between groups when hosting on a shared server such as Render. State is also lost whenever the server restarts or spins down.
+
 ## Voice recordings
 
 The game plays saved MP3s from `public/sounds/voice/` and never calls ElevenLabs while a game is running. Alex Trebek was not available in the account's voice library, so the saved recordings use ElevenLabs' free premade **Bill** voice. The 1991-07-18 and 2025-09-11 games have complete sets; the intro and category announcements are saved for all included games. For clues without recordings, the board uses an English voice installed on that computer when the browser provides one; if none is available, play continues without narration.

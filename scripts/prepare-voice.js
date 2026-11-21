@@ -124,7 +124,7 @@ async function main() {
 
   const subscription = await (await request('user/subscription', apiKey)).json();
   const remaining = subscription.character_limit - subscription.character_count;
-  if (remaining < characters) throw new Error(`The account has ${remaining} credits remaining; this batch needs up to ${characters}. No audio was generated.`);
+  if (remaining < characters && !process.argv.includes('--allow-overage')) throw new Error(`The account has ${remaining} credits remaining; this batch needs up to ${characters}. No audio was generated. Add --allow-overage to try anyway.`);
 
   fs.mkdirSync(VOICE_DIRECTORY, { recursive: true });
   for (const [index, text] of pending.entries()) {

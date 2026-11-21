@@ -106,7 +106,7 @@ test('players can buzz, wager, score, reconnect and finish a game', async () => 
   let playerB = await connect(); sockets.push(playerB);
   try {
     board.emit('setRole', 'main-table');
-    host.emit('setRole', 'quiz-master');
+    host.emit('setRole', { role: 'quiz-master', pin: '1234' });
     assert.deepEqual(await register(playerA, 'Ada', 'test-ada'), { ok: true });
     assert.deepEqual(await register(playerB, 'Ben', 'test-ben'), { ok: true });
     const duplicate = await connect(); sockets.push(duplicate);
@@ -217,7 +217,7 @@ test('all contestants who answered incorrectly stay locked out of the clue', asy
   const cleo = await connect(); sockets.push(cleo);
   try {
     board.emit('setRole', 'main-table');
-    host.emit('setRole', 'quiz-master');
+    host.emit('setRole', { role: 'quiz-master', pin: '1234' });
     await register(ada, 'Ada', 'retry-ada');
     await register(ben, 'Ben', 'retry-ben');
     await register(cleo, 'Cleo', 'retry-cleo');
@@ -252,5 +252,45 @@ test('all contestants who answered incorrectly stay locked out of the clue', asy
     assert.equal(await nextBuzz, 'Cleo');
   } finally {
     sockets.forEach(socket => socket.disconnect());
+  }
+});
+
+test('only the host can reset the game, which clears players and scores', async () => {
+  const sockets = [];
+  const host = await connect(); sockets.push(host);
+  const player = await connect(); sockets.push(player);
+  try {
+    host.emit('setRole', { role: 'quiz-master', pin: '1234' });
+    assert.deepEqual(await register(player, 'Zed', 'test-zed'), { ok: true });
+
+    const ignored = receive(host, 'gameReset', 300).catch(() => null);
+    player.emit('resetGame');
+    assert.equal(await ignored, null);
+
+    const reset = receive(player, 'gameReset');
+    host.emit('resetGame');
+    await reset;
+
+    const updated = receive(host, 'updatePlayers');
+    host.emit('setRole', { role: 'quiz-master', pin: '1234' });
+    assert.deepEqual(await updated, {});
+    // The same device id no longer recovers its old score.
+    const again = await connect(); sockets.push(again);
+    assert.deepEqual(await register(again, 'Zed', 'test-zed'), { ok: true });
+  } finally {
+    sockets.forEach(socket => socket.close());
+  }
+});
+
+test('the host role requires the correct PIN', async () => {
+  const socket = await connect();
+  try {
+    assert.match((await socket.timeout(3000).emitWithAck('setRole', { role: 'quiz-master', pin: '0000' })).error, /incorrect/i);
+    const ignored = receive(socket, 'gameReset', 300).catch(() => null);
+    socket.emit('resetGame');
+    assert.equal(await ignored, null);
+    assert.deepEqual(await socket.timeout(3000).emitWithAck('setRole', { role: 'quiz-master', pin: '1234' }), { ok: true });
+  } finally {
+    socket.close();
   }
 });

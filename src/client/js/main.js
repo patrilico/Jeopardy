@@ -102,15 +102,24 @@ document.getElementById('player-btn').addEventListener('click', () => {
   playerNameInput.focus();
 });
 
+let hostPin = '';
 quizMasterBtn.addEventListener('click', () => {
-  document.body.className = 'quiz-master-screen';
-  roleSelection.style.display = 'none';
-  quizMasterView.style.display = 'block';
-  role = 'quiz-master';
-  socket.emit('setRole', 'quiz-master');
-  scoreTableFooter.style.display = 'block';
+  const pin = prompt('Enter the host PIN');
+  if (pin === null) return;
+  socket.emit('setRole', { role: 'quiz-master', pin: pin.trim() }, (response) => {
+    if (!response?.ok) {
+      alert(response?.error || 'Could not start as host.');
+      return;
+    }
+    hostPin = pin.trim();
+    document.body.className = 'quiz-master-screen';
+    roleSelection.style.display = 'none';
+    quizMasterView.style.display = 'block';
+    role = 'quiz-master';
+    scoreTableFooter.style.display = 'block';
 
-  updateEditScoresInterface();
+    updateEditScoresInterface();
+  });
 });
 
 document.querySelector('[data-back-to-roles]').addEventListener('click', () => {
@@ -175,6 +184,14 @@ quizMasterCloseQuestionBtn.addEventListener('click', () => {
   socket.emit('cancelTimers');
 });
 quizMasterResetButton.addEventListener('click', () => socket.emit('resetBuzzers'));
+document.getElementById('quiz-master-reset-game').addEventListener('click', () => {
+  if (confirm('Reset the game? This removes all players, scores and the loaded game on every device.')) socket.emit('resetGame');
+});
+// Every device returns to the role screen with a fresh player identity.
+socket.on('gameReset', () => {
+  localStorage.removeItem('playerId');
+  location.reload();
+});
 advanceToDoubleJeopardyBtn.addEventListener('click', () => socket.emit('advanceToDoubleJeopardy'));
 advanceToFinalJeopardyBtn.addEventListener('click', () => socket.emit('advanceToFinalJeopardy'));
 showFinalQuestionBtn.addEventListener('click', () => {
@@ -1676,6 +1693,8 @@ socket.on('connect', () => {
         socket.emit('registerPlayer', { name: playerName, playerId: playerId });
         playerStatus.textContent = 'Reconnected. Waiting for the next clue.';
       }
+    } else if (role === 'quiz-master') {
+      socket.emit('setRole', { role, pin: hostPin });
     } else {
       socket.emit('setRole', role);
     }

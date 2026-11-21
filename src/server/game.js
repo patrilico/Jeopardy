@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { audioUrl } = require('./voice-cache');
+const { HOST_PIN } = require('./config');
 
 // One local server hosts one shared game. State lives in memory until restart.
 module.exports = function registerGame(io, gamesDirectory) {
@@ -12,7 +13,7 @@ module.exports = function registerGame(io, gamesDirectory) {
   const roles = new Map();
   const playerIds = new Map();
   const rememberedPlayers = new Map();
-  const state = {
+  const initialState = () => ({
     round: 'jeopardy',
     categories: [],
     double: null,
@@ -28,7 +29,8 @@ module.exports = function registerGame(io, gamesDirectory) {
     finalStartScores: Object.create(null),
     finalCluePending: false,
     finalRevealed: false
-  };
+  });
+  const state = initialState();
 
   // Keep scores for a disconnected player for three hours.
   const cleanup = setInterval(() => {
@@ -117,12 +119,22 @@ module.exports = function registerGame(io, gamesDirectory) {
     socket.emit('gamesList', gameKeys);
 
     // Roles, game selection and reconnectable player registration.
-    socket.on('setRole', value => {
+    let failedPins = 0;
+    socket.on('setRole', (value, acknowledge) => {
+      const respond = typeof acknowledge === 'function' ? acknowledge : () => {};
       const role = value && typeof value === 'object' ? value.role : value;
       if (!['player', 'main-table', 'quiz-master'].includes(role)) return;
+      if (role === 'quiz-master') {
+        if (failedPins >= 5) return respond({ error: 'Too many incorrect PINs. Refresh the page to try again.' });
+        if (value?.pin !== HOST_PIN) {
+          failedPins += 1;
+          return respond({ error: 'Incorrect host PIN.' });
+        }
+      }
       roles.set(socket.id, role);
       if (role === 'main-table' || role === 'quiz-master') socket.emit('gamesList', gameKeys);
       if (role === 'quiz-master') socket.emit('updatePlayers', players);
+      respond({ ok: true });
     });
 
     socket.on('registerPlayer', (data = {}, acknowledge = () => {}) => {
@@ -275,6 +287,15 @@ module.exports = function registerGame(io, gamesDirectory) {
       state.current = null;
       io.emit('currentQuestionIsDailyDouble', false);
       io.emit('questionClosed');
+    });
+    // Wipe the game, scores and remembered players so the next group starts fresh.
+    socket.on('resetGame', () => {
+      if (!isHost()) return;
+      for (const id of Object.keys(players)) delete players[id];
+      playerIds.clear();
+      rememberedPlayers.clear();
+      Object.assign(state, initialState());
+      io.emit('gameReset');
     });
     socket.on('cancelTimers', () => { if (isHost()) io.emit('cancelTimers'); });
 

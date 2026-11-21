@@ -183,6 +183,7 @@ body.player-screen {
 #quiz-master-view button:disabled { opacity: .43; cursor: not-allowed; }
 #quiz-master-view .secondary-actions { margin-top: 10px; }
 #quiz-master-view .secondary-actions button { background: transparent; border-color: #40506e; color: #c5d0e2; }
+#quiz-master-view .secondary-actions .danger-button { grid-column: 1 / -1; border-color: #7a3b4a; color: #f0b4c0; }
 #quiz-master-view button:not(:disabled):hover { opacity: 1; filter: brightness(1.2); }
 .scores-panel .panel-heading { margin-bottom: 20px; }
 .empty-players { padding: 15px 0 5px; color: #91a0ba; font-size: .82rem; line-height: 1.5; }
