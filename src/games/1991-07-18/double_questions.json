@@ -1,0 +1,184 @@
+{
+    "categories": [
+        {
+            "name": "19th CENTURY AMERICA",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The 1825 opening of this drastically reduced the freight rates between Buffalo & New York City",
+                    "answer": "the Erie Canal"
+                },
+                {
+                    "value": 400,
+                    "question": "In 1845 this former commander of the Texas armed forces became 1 of that state's first 2 U.S. senators",
+                    "answer": "Sam Houston"
+                },
+                {
+                    "value": 600,
+                    "question": "In 1819 this Chief Justice said, \"The power to tax involves the power to destroy\"",
+                    "answer": "(John) Marshall"
+                },
+                {
+                    "value": 800,
+                    "question": "This country's King Mongkut offered Pres. Buchanan a herd of elephants to help develop U.S. transportation",
+                    "answer": "Siam"
+                },
+                {
+                    "value": 1000,
+                    "question": "This president replaced some officeholders with his own supporters, thus creating the \"spoils system\"",
+                    "answer": "(Andrew) Jackson"
+                }
+            ]
+        },
+        {
+            "name": "MIDDLE NAMES",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Our only president whose middle name was Clark",
+                    "answer": "Hoover"
+                },
+                {
+                    "value": 400,
+                    "question": "Middle name of \"First Lady of the American Theater\" Helen Brown",
+                    "answer": "Hayes"
+                },
+                {
+                    "value": 600,
+                    "question": "Father of Kansas Senator Kassebaum; his middle name was Mossman",
+                    "answer": "Alf Landon"
+                },
+                {
+                    "value": 800,
+                    "question": "Middle name of Dixy Ray, who was Washington state governor 1977-1981",
+                    "answer": "Lee"
+                },
+                {
+                    "value": 1000,
+                    "question": "Middle name of jurist Billings Hand, who served a record 52 years on the federal bench",
+                    "answer": "Learned"
+                }
+            ]
+        },
+        {
+            "name": "4-LETTER WORDS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "This archaic word the third person singular present indicative of have",
+                    "answer": "hath"
+                },
+                {
+                    "value": 400,
+                    "question": "To invent a new word or phrase",
+                    "answer": "coin"
+                },
+                {
+                    "value": 600,
+                    "question": "Sharp as in a blade or sense of hearing",
+                    "answer": "keen"
+                },
+                {
+                    "value": 800,
+                    "question": "It's Scottish for a church",
+                    "answer": "kirk"
+                },
+                {
+                    "value": 1000,
+                    "question": "These 2 4-letter words for sticky, slimy mud are both from Old Norse & both begin with \"M\"",
+                    "answer": "muck & mire"
+                }
+            ]
+        },
+        {
+            "name": "WORLD GEOGRAPHY",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The railroad between Jining, China & Ulan Bator, Mongolia crosses this desert",
+                    "answer": "the Gobi"
+                },
+                {
+                    "value": 400,
+                    "question": "Ceuta, a free port on the Moroccan coast, is administered as part of this country's Cadiz province",
+                    "answer": "Spain"
+                },
+                {
+                    "value": 600,
+                    "question": "Known to the Roman as Albis, this river marked their farthest advance into Germany",
+                    "answer": "the Elbe"
+                },
+                {
+                    "value": 800,
+                    "question": "This continent's northernmost point, Cape York Peninsula, has extensive deposits of bauxite",
+                    "answer": "Australia"
+                },
+                {
+                    "value": 1000,
+                    "question": "Madhya Pradesh is this country's largest state, Uttar Pradesh, its most populous",
+                    "answer": "India"
+                }
+            ]
+        },
+        {
+            "name": "LITERARY CHARACTERS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "In a Thos. Hardy novel, Henchard's asst. Donald Farfrae also becomes \"The Mayor of\" this",
+                    "answer": "Casterbridge"
+                },
+                {
+                    "value": 400,
+                    "question": "Jonas Chuzzlewit marries Mercy Pecksniff & makes her life miserable in a novel by this author",
+                    "answer": "Dickens"
+                },
+                {
+                    "value": 600,
+                    "question": "Henry Fleming, the hero of \"The Red Badge of Courage\", reappeared in his short story \"Lynx-Hunting\"",
+                    "answer": "Stephen Crane"
+                },
+                {
+                    "value": 800,
+                    "question": "\"Floral\" name of Henry James' \"strikingly, admirably pretty\" heroine from Schenectady",
+                    "answer": "Daisy Miller"
+                },
+                {
+                    "value": 1000,
+                    "question": "Trilby loses her voice when this mesmerizing musician dies",
+                    "answer": "Svengali"
+                }
+            ]
+        },
+        {
+            "name": "HATS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "One may be war or Easter",
+                    "answer": "a bonnet"
+                },
+                {
+                    "value": 400,
+                    "question": "The animal whose fur is used in most men's fur felt hats today is this one often pulled from hats",
+                    "answer": "rabbits"
+                },
+                {
+                    "value": 600,
+                    "question": "Nautical-sounding name for a stiff-brimmed, flat-crowned straw hat",
+                    "answer": "a sailor hat (boater)"
+                },
+                {
+                    "value": 800,
+                    "question": "Muslim men wear a tarboosh alone or as the inner part of one of these",
+                    "answer": "a turban"
+                },
+                {
+                    "value": 1000,
+                    "question": "The pillbox hat worn by the French army; the Confederate cap was based on it",
+                    "answer": "a kepi"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "categories": [
+        {
+            "name": "PHYSIOLOGY",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "This word can refer to a network of nerves; you don't want to get punched in the solar one",
+                    "answer": "plexus"
+                },
+                {
+                    "value": 800,
+                    "question": "Red blood cells are formed in the red this, also called myeloid tissue",
+                    "answer": "bone marrow"
+                },
+                {
+                    "value": 1200,
+                    "question": "The superior this brings blood from the head, neck, arms & chest to the heart, specifically to the right atrium",
+                    "answer": "the vena cava",
+                    "image": "2023-09-19/1_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "When your body burns fat instead of glucose for energy, this metabolic state occurs",
+                    "answer": "ketosis"
+                },
+                {
+                    "value": 2000,
+                    "question": "The small intestine is lined with a mucous membrane & these finger-like projections",
+                    "answer": "villi",
+                    "image": "2023-09-19/1_2000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "SUPER TROUPERS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "She founded Upright Citizens Brigade with three friends in the '90s",
+                    "answer": "Amy Poehler",
+                    "image": "2023-09-19/2_400.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "This Chicago comedy institution awards a fellowship named for Bob Curry, its first African-American mainstage performer",
+                    "answer": "Second City"
+                },
+                {
+                    "value": 1200,
+                    "question": "The Nudge Nudge guy & a guy selling stones for a biblical stoning are two of this Monty Pythoner's roles",
+                    "answer": "Eric Idle",
+                    "image": "2023-09-19/2_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "Paul Reubens & Maya Rudolph honed their skills with this group named for those in the cheap non-seats during Elizabethan plays",
+                    "answer": "The Groundlings"
+                },
+                {
+                    "value": 2000,
+                    "question": "On \"Key & Peele\" Keegan-Michael Key did this job for Obama; Improv Olympic alumna Stephnie Weir did it for Hillary",
+                    "answer": "anger translator"
+                }
+            ]
+        },
+        {
+            "name": "MAILED IT!",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "In 1958, Harry Winston mailed this 45.52-carat item to the Smithsonian for $2.44 first class, plus $142.85 for $1 million in insurance",
+                    "answer": "the Hope Diamond",
+                    "image": "2023-09-19/3_400.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "Oops... on a stamp in 2010--& 3 billion stamps, eventually--the USPS used a replica in Vegas instead of this New York landmark",
+                    "answer": "the Statue of Liberty"
+                },
+                {
+                    "value": 1200,
+                    "question": "RFD, short for this, began in 1896; previously, about 65% of Americans lived in the \"R\" area & had to pick up mail at the P.O.",
+                    "answer": "Rural Free Delivery"
+                },
+                {
+                    "value": 1600,
+                    "question": "The U.S. Postal Inspection Service warns of scams by fake sweepstakes purporting to be from this company founded in 1953",
+                    "answer": "Publishers Clearing House"
+                },
+                {
+                    "value": 2000,
+                    "question": "Lawrence O'Brien was appointed to this government job by LBJ in 1965; in '75 Larry did a nifty crossover & got the NBA commissioner gig",
+                    "answer": "Postmaster General"
+                }
+            ]
+        },
+        {
+            "name": "WHAT COULD IT \"B\"?",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "This annual event falls on the feast day of St. Stephen",
+                    "answer": "Boxing Day"
+                },
+                {
+                    "value": 800,
+                    "question": "The name of this street & area in Lower Manhattan comes from Dutch for \"farm\"; the area was a 19th century skid row",
+                    "answer": "the Bowery"
+                },
+                {
+                    "value": 1200,
+                    "question": "This 70-room palazzo, built in the style of the Italian Renaissance, is in Newport, Rhode Island",
+                    "answer": "the Breakers",
+                    "image": "2023-09-19/4_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "These trees of Africa & Madagascar are often called upside-down trees",
+                    "answer": "baobab trees",
+                    "image": "2023-09-19/4_1600.jpg"
+                },
+                {
+                    "value": 2000,
+                    "question": "He's the 18th century author of the farce \"The Barber of Seville\" & the comedy \"The Marriage of Figaro\"",
+                    "answer": "Beaumarchais"
+                }
+            ]
+        },
+        {
+            "name": "FUN & GAMES",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Black & white pieces in this game are often called stones, which you want to get back home & then \"bear off\" to win the game",
+                    "answer": "backgammon"
+                },
+                {
+                    "value": 800,
+                    "question": "A 2023 film pulled back the curtain on how this video game took over the world, one falling block at a time",
+                    "answer": "Tetris"
+                },
+                {
+                    "value": 1200,
+                    "question": "Ludo is another name for this board game, sometimes called India's national game",
+                    "answer": "Parcheesi"
+                },
+                {
+                    "value": 1600,
+                    "question": "Bamboos & winds are names for some of the tiles called pais in this game",
+                    "answer": "mahjong"
+                },
+                {
+                    "value": 2000,
+                    "question": "Cutthroat is one type of this card game that has a name derived from French for \"two-eyed\"",
+                    "answer": "pinochle"
+                }
+            ]
+        },
+        {
+            "name": "PHRASES & IDIOMS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "You don't have to be a Marvel hero to have this awareness of danger introduced in a 1962 comic book",
+                    "answer": "Spider-sense"
+                },
+                {
+                    "value": 800,
+                    "question": "18th century essayist Richard Steele coined this phrase for a payment made to get someone to keep quiet",
+                    "answer": "hush money"
+                },
+                {
+                    "value": 1200,
+                    "question": "Jane Austen wrote in a letter, \"It was 12 before we reached home. We were all\" this hyphenated canine phrase",
+                    "answer": "dog-tired"
+                },
+                {
+                    "value": 1600,
+                    "question": "The practice of putting ailing seamen below decks is a possible origin of this phrase meaning not feeling too good",
+                    "answer": "under the weather"
+                },
+                {
+                    "value": 2000,
+                    "question": "A James Thurber character who's full of expressions not only uses \"the catbird seat\" but \"tearing up\" this garden area",
+                    "answer": "the pea patch"
+                }
+            ]
+        }
+    ]
+}

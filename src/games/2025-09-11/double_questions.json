@@ -1,0 +1,184 @@
+{
+    "categories": [
+        {
+            "name": "200 YEARS AGO",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "The presidential election of 1824 was actually decided by the House in 1825, with this man coming out on top",
+                    "answer": "John Quincy Adams"
+                },
+                {
+                    "value": 800,
+                    "question": "The Decembrist revolt broke out in this country in 1825 &, though quickly defeated, inspired future revolutionaries",
+                    "answer": "Russia"
+                },
+                {
+                    "value": 1200,
+                    "question": "Charles X, the last French king of this house, was coronated in Reims on May 29, 1825",
+                    "answer": "the Bourbons"
+                },
+                {
+                    "value": 1600,
+                    "question": "No relation to Bill, this New York governor was on hand for the opening of the Erie Canal in 1825",
+                    "answer": "DeWitt Clinton"
+                },
+                {
+                    "value": 2000,
+                    "question": "Explorer Alexander Laing set off from Tripoli across the Sahara in 1825 to reach this fabled city; he'd make it, but die soon after",
+                    "answer": "Timbuktu"
+                }
+            ]
+        },
+        {
+            "name": "OSCAR-WINNING TITLE REFERENCES",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "2009:Military slang for a bad or painful situation",
+                    "answer": "the hurt locker"
+                },
+                {
+                    "value": 800,
+                    "question": "1996:Count László de Almásy, badly burned",
+                    "answer": "the English patient"
+                },
+                {
+                    "value": 1200,
+                    "question": "1988:How a young Charlie Babbitt mispronounced his older brother's name",
+                    "answer": "Rain Man"
+                },
+                {
+                    "value": 1600,
+                    "question": "1990:A name given to Lieutenant John Dunbar",
+                    "answer": "Dances with Wolves"
+                },
+                {
+                    "value": 2000,
+                    "question": "1971:A murder in Marseilles & some heroin central to the action",
+                    "answer": "the French connection"
+                }
+            ]
+        },
+        {
+            "name": "I LOVE THAT FOR YURI",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "It's the title occupation of the fictional Yuri Zhivago",
+                    "answer": "a doctor"
+                },
+                {
+                    "value": 800,
+                    "question": "Nick Jameson played Yuri Suvarov on multiple seasons of this show about Jack Bauer of CTU, &, before that, bass for Foghat",
+                    "answer": "24"
+                },
+                {
+                    "value": 1200,
+                    "question": "The daughter of this high flyer of the 1960s became director of the Kremlin State Museum",
+                    "answer": "Gagarin"
+                },
+                {
+                    "value": 1600,
+                    "question": "There's a strange trip north in Yuri Herrera's \"Señales que precederán al fin del mundo\", or \"Signs Preceding\" this event",
+                    "answer": "the end of the world"
+                },
+                {
+                    "value": 2000,
+                    "question": "Later briefly leader of the USSR, Yuri Andropov was ambassador to this country when the Soviets suppressed its 1956 uprising",
+                    "answer": "Hungary"
+                }
+            ]
+        },
+        {
+            "name": "ENGINEERING",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Designing roads, bridges, sewers & other pieces of infrastructure falls under this branch of engineering",
+                    "answer": "civil"
+                },
+                {
+                    "value": 800,
+                    "question": "L.E.D. stands for light-emitting this component, common in electrical engineering",
+                    "answer": "diode"
+                },
+                {
+                    "value": 1200,
+                    "question": "Audio & electrical engineers will measure the ratio of this desired information to noise to evaluate clarity",
+                    "answer": "signal"
+                },
+                {
+                    "value": 1600,
+                    "question": "It's the term for a rigid structure that extends horizontally, with one end unsupported, like the terraces at Fallingwater",
+                    "answer": "a cantilever"
+                },
+                {
+                    "value": 2000,
+                    "question": "In summer, subway systems get un-cool as they absorb & trap warmth from streets, functioning as what's called a heat this",
+                    "answer": "a sink"
+                }
+            ]
+        },
+        {
+            "name": "WRITERS AT REST",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "His gravestone at L.A.'s Westwood Memorial Park lists his most popular book",
+                    "answer": "Bradbury"
+                },
+                {
+                    "value": 800,
+                    "question": "Cremated with a copy of his memoir \"Black Boy\", he was interred in an urn at Père Lachaise Cemetery in Paris",
+                    "answer": "(Richard) Wright"
+                },
+                {
+                    "value": 1200,
+                    "question": "Lillian Hellman spoke of his wartime service during a eulogy in 1961 before he was laid to rest at Arlington",
+                    "answer": "(Dashiell) Hammett"
+                },
+                {
+                    "value": 1600,
+                    "question": "She may not be fully at rest in an English churchyard, as vandals chiseled away the name Hughes on her gravestone more than once",
+                    "answer": "Sylvia Plath"
+                },
+                {
+                    "value": 2000,
+                    "question": "Her grave was unmarked until Alice Walker had a stone made calling her \"a genius of the South/novelist folklorist/anthropologist\"",
+                    "answer": "Zora Neale Hurston"
+                }
+            ]
+        },
+        {
+            "name": "OVERLAPS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "A DUI offense! Imbibing a martini while driving hazardously close to someone",
+                    "answer": "cocktailgating"
+                },
+                {
+                    "value": 800,
+                    "question": "A plant representing the Trinity that encompasses the country & blues style of Carl Perkins & his \"Blue Suede Shoes\"",
+                    "answer": "shamrockabilly"
+                },
+                {
+                    "value": 1200,
+                    "question": "The art of making films about the organization depicted in \"The Godfather\" & \"Donnie Brasco\"",
+                    "answer": "cinemafia"
+                },
+                {
+                    "value": 1600,
+                    "question": "Heap praise on the dominant people of Central Mexico from about 900 to 1200 A.D.",
+                    "answer": "extoltecs"
+                },
+                {
+                    "value": 2000,
+                    "question": "From Italian, describing paint laid thickly on a surface to create a peaceful painting of shepherds",
+                    "answer": "impastoral"
+                }
+            ]
+        }
+    ]
+}

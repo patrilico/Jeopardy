@@ -1,0 +1,188 @@
+{
+    "categories": [
+        {
+            "name": "ZOOMING AROUND THE U.S.",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Fort Lauderdale:Zoom out to this state it's in",
+                    "answer": "Florida"
+                },
+                {
+                    "value": 800,
+                    "question": "This city:Zoom in to the neighborhoods of Dorchester or the Back Bay",
+                    "answer": "Boston"
+                },
+                {
+                    "value": 1200,
+                    "question": "The Sawatch range:Zoom out to this larger mountain range",
+                    "answer": "the Rocky Mountains"
+                },
+                {
+                    "value": 1600,
+                    "question": "Metro Phoenix:Zoom in to the GRIC, this River Indian Community",
+                    "answer": "the Gila"
+                },
+                {
+                    "value": 2000,
+                    "question": "Downtown Cleveland:Zoom out to this county with an Iroquoian name",
+                    "answer": "Cuyahoga"
+                }
+            ]
+        },
+        {
+            "name": "MUSIC CLASS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "There are 52 white keys on a standard piano & this many black ones",
+                    "answer": "36"
+                },
+                {
+                    "value": 800,
+                    "question": "Guitarists use an index finger to hold down multiple strings when playing a \"barre\" this",
+                    "answer": "a chord"
+                },
+                {
+                    "value": 1200,
+                    "question": "The Pacifica Quartet won the 2020 Grammy for best this kind of Music/Small Ensemble Performance",
+                    "answer": "chamber"
+                },
+                {
+                    "value": 1600,
+                    "question": "The \"Surprise\" symphony (No. 94) & the \"London\" (No. 104) are nicknames for works by this prolific 18th century Austrian",
+                    "answer": "Haydn"
+                },
+                {
+                    "value": 2000,
+                    "question": "Style of wordless jazz singing heard here; it needn't include the syllable of its name",
+                    "answer": "scat"
+                }
+            ]
+        },
+        {
+            "name": "\"YA\"S",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "The reality show \"Below Deck\" takes place on a \"super\" one",
+                    "answer": "a yacht"
+                },
+                {
+                    "value": 800,
+                    "question": "A catchphrase from \"Seinfeld\" that actually predates the show, it means \"blah, blah, blah\"",
+                    "answer": "yada, yada, yada"
+                },
+                {
+                    "value": 1200,
+                    "question": "In a deal worth $5 billion, Apollo global management acquired this company from Verizon along with AOL",
+                    "answer": "Yahoo"
+                },
+                {
+                    "value": 1600,
+                    "question": "Sea captains & pirates are \"woven\" into the fabric of the 1835 book \"An Old Sailor's\" these tales",
+                    "answer": "yarns"
+                },
+                {
+                    "value": 2000,
+                    "question": "It's the Japanese version of shish kebab",
+                    "answer": "yakitori"
+                }
+            ]
+        },
+        {
+            "name": "LET'S HAVE A WATCH PARTY",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Let's watch \"Moxie\" co-starring this woman who also directed",
+                    "answer": "Amy Poehler",
+                    "image": "2022-02-18/4_400.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "Let's flash back to 2017 with \"Ladybird\", featuring this actor seen here",
+                    "answer": "(Timothée) Chalamet",
+                    "image": "2022-02-18/4_800.jpg"
+                },
+                {
+                    "value": 1200,
+                    "question": "Let's watch \"The Great British Baking Show\" from the beginning, when this woman with a rhyming name was judge",
+                    "answer": "Mary Berry",
+                    "image": "2022-02-18/4_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "Choices for this funny guy: \"Inside\", with him performing musical comedy, or the movie \"Eighth Grade\", which he wrote & directed",
+                    "answer": "Bo Burnham"
+                },
+                {
+                    "value": 2000,
+                    "question": "This TruTV series with Sal, Joe, Q & Murr challenging each other to hidden-camera dares & stunts is always good for laughs",
+                    "answer": "The Impractical Jokers"
+                }
+            ]
+        },
+        {
+            "name": "VERBS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "It can mean to fish by towing lures behind a boat, or to make intentional upsetting remarks online to elicit a response",
+                    "answer": "troll"
+                },
+                {
+                    "value": 800,
+                    "question": "When you lie in court under oath, you do this to \"yourself\"",
+                    "answer": "perjure"
+                },
+                {
+                    "value": 1200,
+                    "question": "To squeeze uncomfortably, like certain snakes or like too tight shoes on your feet",
+                    "answer": "constrict"
+                },
+                {
+                    "value": 1600,
+                    "question": "To speak distinctly & clearly; it can also mean to unite by means of a joint",
+                    "answer": "articulate"
+                },
+                {
+                    "value": 2000,
+                    "question": "From Latin for \"wave\", it means to move in waves or ripples",
+                    "answer": "undulate"
+                }
+            ]
+        },
+        {
+            "name": "SCIENCE FACT",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "3 types of this single-stranded stuff in our bodies are messenger, transfer & ribosomal",
+                    "answer": "RNA"
+                },
+                {
+                    "value": 800,
+                    "question": "Its name signifying a conflict with the Greek god of war, this star is 10,000 times the Sun's luminosity",
+                    "answer": "Antares"
+                },
+                {
+                    "value": 1200,
+                    "question": "Here's the windup, & this ore of uranium in which that element was first discovered",
+                    "answer": "pitchblende"
+                },
+                {
+                    "value": 1600,
+                    "question": "Chemistry news: this unit is no longer related to the No. of atoms in 12 grams of carbon-12, but directly to Avogadro's constant",
+                    "answer": "a mole"
+                },
+                {
+                    "value": 2000,
+                    "question": "You don't know me, but I've got about a million islets named for me in your pancreas",
+                    "answer": "Langerhans",
+                    "image": "2022-02-18/6_2000.jpg"
+                }
+            ]
+        }
+    ]
+}

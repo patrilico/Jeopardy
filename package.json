@@ -1,0 +1,26 @@
+{
+  "name": "jeopardygame",
+  "version": "1.0.0",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "test": "node --test",
+    "voice:prepare": "node scripts/prepare-voice.js",
+    "voice:inspect": "node scripts/prepare-voice.js --inspect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A locally hosted multiplayer Jeopardy game",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  }
+}

@@ -1,0 +1,191 @@
+{
+    "categories": [
+        {
+            "name": "THIS IS MY COUNTRY",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "1969-1974--Georges Pompidou",
+                    "answer": "France",
+                    "image": "2023-10-03/1_200.jpg"
+                },
+                {
+                    "value": 400,
+                    "question": "1957-1971--Papa Doc Duvalier",
+                    "answer": "Haiti",
+                    "image": "2023-10-03/1_400.jpg"
+                },
+                {
+                    "value": 600,
+                    "question": "1999-2008--Thabo Mbeki",
+                    "answer": "South Africa",
+                    "image": "2023-10-03/1_600.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "1935-1944--Manuel Quezon",
+                    "answer": "the Philippines",
+                    "image": "2023-10-03/1_800.jpg"
+                },
+                {
+                    "value": 1000,
+                    "question": "On the throne from 1951-1993--King Baudouin",
+                    "answer": "Belgium",
+                    "image": "2023-10-03/1_1000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "NAME: THE CLASSIC SONG",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "\"I wish that I had\" his \"girl... where can I find a woman like that?\"",
+                    "answer": "Jessie"
+                },
+                {
+                    "value": 400,
+                    "question": "\"What's The Frequency\", this guy? \"Is your Benzedrine, uh huh, I was brain-dead, locked out, numb, not up to speed\"",
+                    "answer": "Kenneth"
+                },
+                {
+                    "value": 600,
+                    "question": "\"You in that dress, my thoughts I confess, verge on dirty, come on\", her; may we add, \"Toora loora toora loo-rye-ay\"",
+                    "answer": "Eileen"
+                },
+                {
+                    "value": 800,
+                    "question": "\"Help Me\", this woman whose name repeats 13 times in the chorus, \"Help me... get her out of my heart\"",
+                    "answer": "Rhonda"
+                },
+                {
+                    "value": 1000,
+                    "question": "\"Ooh my little pretty one, pretty one, when you gonna give me some time\", this woman? \"M-m-m-my\" this woman",
+                    "answer": "Sharona"
+                }
+            ]
+        },
+        {
+            "name": "HEY, LAD-\"E\"",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Flying \"may not be all plain sailing... but the fun of it is worth the price\", said this woman, who would know",
+                    "answer": "Earhart"
+                },
+                {
+                    "value": 400,
+                    "question": "In 1892 this founder of Christian Science moved to a house called Pleasant View in Concord, New Hampshire",
+                    "answer": "(Mary Baker) Eddy"
+                },
+                {
+                    "value": 600,
+                    "question": "She earned Oscar nominations for her screenplays for \"When Harry Met Sally...\" & \"Sleepless in Seattle\"",
+                    "answer": "Nora Ephron"
+                },
+                {
+                    "value": 800,
+                    "question": "In 1588 she is said to have donned a full suit of armor to rally English troops & sailors who were battling the Spanish",
+                    "answer": "Queen Elizabeth I"
+                },
+                {
+                    "value": 1000,
+                    "question": "She was the queen consort of Louis VII of France & Henry II of England",
+                    "answer": "Eleanor of Aquitaine"
+                }
+            ]
+        },
+        {
+            "name": "SOUTHERN CALIFORNIA ATTRACTIONS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Of course you can tour our Sony Pictures Studio lot, which, back in the day, was this studio famous for its musicals",
+                    "answer": "MGM"
+                },
+                {
+                    "value": 400,
+                    "question": "This iconic venue has been presenting summer concerts for more than 100 years",
+                    "answer": "the Hollywood Bowl",
+                    "image": "2023-10-03/4_400.jpg"
+                },
+                {
+                    "value": 600,
+                    "question": "It covers over 4,200 acres & it's where you'll find the Greek Theatre & a world famous observatory",
+                    "answer": "Griffith Park"
+                },
+                {
+                    "value": 800,
+                    "question": "Long Beach is home to this historic ocean liner with a royal name",
+                    "answer": "the Queen Mary",
+                    "image": "2023-10-03/4_800.jpg"
+                },
+                {
+                    "value": 1000,
+                    "question": "This sports venue popularly known as \"The House that Kobe Built\" was recently renamed the Crypto.com Arena",
+                    "answer": "the Staples Center"
+                }
+            ]
+        },
+        {
+            "name": "FOOD FOR THOUGHT",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The B vitamins in these, whether deviled, poached or Benedict, may help to prevent brain shrinkage",
+                    "answer": "eggs"
+                },
+                {
+                    "value": 400,
+                    "question": "These colorful fruits of the genus Vaccinium are often called \"brainberries\"",
+                    "answer": "blueberries"
+                },
+                {
+                    "value": 600,
+                    "question": "Pumpkin seeds are rich in Zn, this memory-enhancing element",
+                    "answer": "zinc"
+                },
+                {
+                    "value": 800,
+                    "question": "Deep-water fish like wild salmon are rich in omega-3 these, essential to brain function",
+                    "answer": "fatty acids"
+                },
+                {
+                    "value": 1000,
+                    "question": "Monounsaturated fats in these \"alligator pears\" can lower blood pressure & promote a healthy brain",
+                    "answer": "avocados"
+                }
+            ]
+        },
+        {
+            "name": "2 VOWELS, ONE CONSONANT",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "\"Serpentine\" feathery wrap",
+                    "answer": "a boa"
+                },
+                {
+                    "value": 400,
+                    "question": "Bravo at the bullfight",
+                    "answer": "olé"
+                },
+                {
+                    "value": 600,
+                    "question": "An untouched tennis serve",
+                    "answer": "an ace"
+                },
+                {
+                    "value": 800,
+                    "question": "Simian word for \"mimic\"",
+                    "answer": "ape"
+                },
+                {
+                    "value": 1000,
+                    "question": "Contend for superiority",
+                    "answer": "vie"
+                }
+            ]
+        }
+    ]
+}

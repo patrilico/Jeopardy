@@ -1,0 +1,189 @@
+{
+    "categories": [
+        {
+            "name": "MONET MONET",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "This art movement got its name from an 1872 Monet masterpiece detailing an early morning Le Havre landscape",
+                    "answer": "Impressionism",
+                    "image": "2023-09-15/1_400.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "Monet painted a series of these in different colors & though it would've been appropriate, without a sleeping Little Boy Blue",
+                    "answer": "haystacks"
+                },
+                {
+                    "value": 1200,
+                    "question": "It's lucky this Pierre gave us the 1875 portrait of Claude Monet seen here",
+                    "answer": "Renoir",
+                    "image": "2023-09-15/1_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "Nice yard work, Claude! In Giverny, Monet created a pond of these flowering plants that inspired his last major set of paintings",
+                    "answer": "water lilies"
+                },
+                {
+                    "value": 2000,
+                    "question": "At the Met in New York, you can see Monet's this city on the Seine \"Cathedral: The Portal (Sunlight)\"",
+                    "answer": "Rouen"
+                }
+            ]
+        },
+        {
+            "name": "CURRENCY",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "It's said this currency of India goes back to a silver coin introduced by Sher Shah in 1542",
+                    "answer": "the rupee"
+                },
+                {
+                    "value": 800,
+                    "question": "Add a letter to the Angola currency & it becomes this December Pan-African holiday",
+                    "answer": "Kwanzaa"
+                },
+                {
+                    "value": 1200,
+                    "question": "In a symbol for Japanese currency, parallel bars adorn this letter",
+                    "answer": "a Y"
+                },
+                {
+                    "value": 1600,
+                    "question": "The front of a 2015 Argentine 50 peso note features a map of these islands",
+                    "answer": "the Falklands",
+                    "image": "2023-09-15/2_1600.jpg"
+                },
+                {
+                    "value": 2000,
+                    "question": "Curacao uses the Netherlands Antillean this, the name of the old Dutch currency",
+                    "answer": "a guilder"
+                }
+            ]
+        },
+        {
+            "name": "FROM \"B\" TO \"F\"",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "3... 2... 1!  Mission Control, we've achieved this success, also known as a rocket launch",
+                    "answer": "blastoff"
+                },
+                {
+                    "value": 800,
+                    "question": "It can describe an argument without flaws & beyond criticism, or a vehicle impervious to gunfire",
+                    "answer": "bulletproof"
+                },
+                {
+                    "value": 1200,
+                    "question": "It can mean an argument or conflict; Steven Yeun & Ali Wong get into one in a Netflix series",
+                    "answer": "a beef"
+                },
+                {
+                    "value": 1600,
+                    "question": "Hardwood trees can be described by this adjective, meaning they have photosynthesis structures that are not needlelike",
+                    "answer": "broadleaf"
+                },
+                {
+                    "value": 2000,
+                    "question": "This large & powerful canine breed with an 11-letter name was once bred to protect game land from poachers",
+                    "answer": "a bullmastiff",
+                    "image": "2023-09-15/3_2000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "CELEB LIT BEFORE & AFTER",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "\"Last Week Tonight\" host who learns the inside scoop on pickpocketing from Fagin",
+                    "answer": "John Oliver Twist"
+                },
+                {
+                    "value": 800,
+                    "question": "Ishmael & crew ready their harpoons in preparation to capture a \"Chitty Chitty Bang Bang\" star",
+                    "answer": "Moby-Dick Van Dyke"
+                },
+                {
+                    "value": 1200,
+                    "question": "Paul Blart portrayer takes a ride on a really big piece of fruit",
+                    "answer": "Kevin James and the Giant Peach"
+                },
+                {
+                    "value": 1600,
+                    "question": "Tiny Tim says, \"God bless us every one\" for an iconic comedian & Eunice in \"Mama's Family\"",
+                    "answer": "A Christmas Carol Burnett"
+                },
+                {
+                    "value": 2000,
+                    "question": "Rowling's whiz kid has trouble with a certain rock & a \"chilly\" WWE star",
+                    "answer": "Harry Potter and the Sorcerer's Stone Cold Steve Austin"
+                }
+            ]
+        },
+        {
+            "name": "THIRST",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Gatorade bills itself as a thirst this, from the Old English for \"extinguish\"",
+                    "answer": "a quencher"
+                },
+                {
+                    "value": 800,
+                    "question": "A commercial featuring thirsty polar bears called \"Northern Lights\" was a big hit for this brand",
+                    "answer": "Coca-Cola"
+                },
+                {
+                    "value": 1200,
+                    "question": "In this book, the tiger Richard Parker was originally named Thirsty",
+                    "answer": "Life of Pi"
+                },
+                {
+                    "value": 1600,
+                    "question": "Excessive thirst may be a symptom of high blood sugar, also known by this 13-letter name",
+                    "answer": "hyperglycemia"
+                },
+                {
+                    "value": 2000,
+                    "question": "In \"Childe Harold's Pilgrimage\" he wrote, \"Fame is the thirst of youth\"",
+                    "answer": "Lord Byron"
+                }
+            ]
+        },
+        {
+            "name": "TRAP",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "The unopened tomb of the 1st Qin emperor of this country is said to contain booby traps that trigger crossbows",
+                    "answer": "China"
+                },
+                {
+                    "value": 800,
+                    "question": "Both later became prime ministers; this one claimed Louis Botha took him prisoner in an ambush in November 1899",
+                    "answer": "Churchill",
+                    "image": "2023-09-15/6_800.jpg"
+                },
+                {
+                    "value": 1200,
+                    "question": "This Carthaginian Elephant Man trapped Roman legions at the Battle of Cannae",
+                    "answer": "Hannibal"
+                },
+                {
+                    "value": 1600,
+                    "question": "In WWI the \"Lost Battalion\" lacked food & medical supplies while trapped behind enemy lines in this forest",
+                    "answer": "the Argonne"
+                },
+                {
+                    "value": 2000,
+                    "question": "In 1187 this leader delivered a major blow to the kingdom of Jerusalem when he trapped an army of crusaders at the Battle of Hattin",
+                    "answer": "Saladin"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,402 @@
+/* style.css */
+
+/* General styling */
+body {
+  font-family: "Helvetica", "Arial Black", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* 1a) Ensure the logo fits neatly inside a header */
+#board-container {
+  overflow: hidden;
+  position: relative;
+}
+
+/* 1) Center and box the whole selection area */
+#game-selection {
+  max-width: 400px;                 /* keeps it narrow */
+  margin: 2rem auto;                /* vertical spacing + auto‐center */
+  padding: 1rem 1.5rem;             /* breathing room inside */
+  background: #fff;                 /* or whatever light bg you use */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 2) Reset list styling */
+#game-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+/* 3) Style each game item */
+#game-list li {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background: #f9f9f9;              /* light gray—match your palette */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+/* hover state */
+#game-list li:hover {
+  background: #eaeaea;
+}
+
+/* 4) (Optional) If you want the header centered/text styled: */
+#game-selection h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* === GAME LIST OVERRIDES === */
+#game-list li {
+  background-color: #f9f9f9 !important;
+  color: #333 !important;
+}
+
+/* Ensure the game-selection header is dark */
+#game-selection h2 {
+  color: #333 !important;
+}
+
+/* Score Table Footer */
+#score-table-footer {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  padding: 10px;
+  background-color: inherit;
+  margin-top: auto; /* keep near bottom */
+  width: 100%;
+}
+
+.score-entry {
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 3px solid #003366;
+  padding: 4px 12px;
+  border-radius: 8px;
+  width: 90%;
+  min-width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.score-entry.buzzed {
+  background-color: darkgreen;
+}
+
+.score-name {
+  flex: 1;
+  text-align: left;
+}
+
+.score-value {
+  text-align: right;
+  margin-left: 10px;
+}
+
+.negative-score {
+  color: red;
+}
+
+/* Remove absolute positioning */
+#score-table-footer {
+  position: static;
+}
+
+/* Jeopardy board styling */
+#board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jeopardy-board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+  max-width: 1500px;
+  margin: 0 auto;
+  grid-auto-rows: 125px; /* Fixed row height */
+}
+
+.category-header {
+  background-color: #003366;
+  font-weight: bold;
+  padding: 10px;
+  /* font-size: initial; */
+  color: white;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-top: 0.5px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  line-height: normal;
+  text-shadow: 2px 2px 4px black;
+}
+
+.jeopardy-cell {
+  background-color: #003366;
+  color: #ffcc00;
+  padding: 25px 0;
+  font-size: 62.5px;
+  font-weight: bold;
+  text-align: center;
+  border: 0.5px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-shadow: 2px 4px 8px black;
+}
+
+.jeopardy-cell:hover {
+  background-color: #002244;
+}
+
+/* Modal styling */
+#question-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #003366; /* Jeopardy blue background */
+}
+
+#modal-content {
+  background-color: transparent;
+  color: white;
+  font-family: 'Times New Roman', serif;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.4;
+  position: relative;
+  text-transform: uppercase;
+  overflow-y: hidden; /* Hide overflow to prevent scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;
+}
+
+#question-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Styles for the image and question text */
+#question-placeholder img {
+  max-width: 100%;
+  max-height: 40vh;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+  object-fit: contain;
+  flex-shrink: 1;
+}
+
+#question-text {
+  flex-shrink: 1;
+  font-size: 100px;
+  text-shadow: 7px 7px 13px black;
+  margin: 0;
+  line-height: 1.1;
+  text-align: center;
+}
+
+/* Buzzed-in info styling */
+#buzzed-in-info {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: calc(1rem + 1vw);
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px black;
+  margin-top: 20px;
+}
+
+/* Timer display styling */
+.timer-display {
+  position: absolute;
+  top: 2%;
+  left: 80%;
+  transform: translateX(-50%);
+  font-size: 2em;
+  color: white;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+/* Wagered Players List */
+#wagered-players {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #CCCC00;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  display: none;
+}
+
+#wagered-players .wager-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#wagered-players .wager-name {
+  margin: 4px 0;
+}
+
+/* Overlay for category titles */
+.category-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #003366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  line-height: 1.2;
+  padding: 20px;
+  word-wrap: break-word;
+  z-index: 1000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Responsive styling for mobile devices */
+@media only screen and (max-width: 600px) {
+#buzzer {
+    width: 80%;
+    max-width: none;
+    font-size: calc(1.2rem + 2vw);
+  }
+
+.score-entry {
+    font-size: 1rem;
+    padding: 3px 6px;
+  }
+
+  #question-text {
+    font-size: calc(1rem + 2vw);
+  }
+
+  #buzzed-in-info {
+    font-size: 1.2rem;
+  }
+
+  .category-overlay {
+    font-size: 36px;
+    padding: 10px;
+  }
+}
+
+/* Final Jeopardy results table */
+#final-jeopardy-answers {
+  display: none;
+  flex-direction: column;
+  background-color: #003366;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fj-result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  padding: 8px;
+  border: 4px solid white;
+  font-size: 1.8rem;
+}
+
+.fj-header-row {
+  font-weight: bold;
+  border-bottom: 4px solid white;
+  font-size: 1.2rem;
+}
+
+.fj-name {
+  width: 25%;
+  text-align: left;
+}
+
+.fj-start-score,
+.fj-wager,
+.fj-final {
+  width: 18%;
+  text-align: right;
+}
+
+.fj-start-score {
+  margin-right: 20px;
+}
+
+.fj-final {
+  font-weight: bold;
+}
+
+.fj-answer {
+  flex: 1;
+  padding-left: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.fj-winner {
+  border-color: gold;
+  font-weight: bold;
+}
+
+#winner-announcement {
+  color: gold;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}

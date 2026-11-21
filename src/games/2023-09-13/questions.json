@@ -1,0 +1,192 @@
+{
+    "categories": [
+        {
+            "name": "MAMMALS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "This mammal's name is from the Greek for \"nose-horn\"",
+                    "answer": "rhinoceros"
+                },
+                {
+                    "value": 400,
+                    "question": "The San Diego Zoo welcomed its first pair of these from Australia, Snugglepot & Cuddlepie, in 1925",
+                    "answer": "a koala"
+                },
+                {
+                    "value": 600,
+                    "question": "Pan troglodytes is the scientific name for this close relative of humans & bonobos",
+                    "answer": "a chimp"
+                },
+                {
+                    "value": 800,
+                    "question": "Like its relative, the meerkat, the banded type of this snake killer bands together to make a stand",
+                    "answer": "a mongoose",
+                    "image": "2023-09-13/1_800.jpg"
+                },
+                {
+                    "value": 1000,
+                    "question": "According to Britannica, though called \"naked\", these rodents actually \"have about 100 fine hairs on their skin\"",
+                    "answer": "a (naked) mole rat"
+                }
+            ]
+        },
+        {
+            "name": "\"I\"s IN YOUR STARS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "In 2016, this \"Luther\" star was made an officer of the Order of the British Empire",
+                    "answer": "Idris Elba"
+                },
+                {
+                    "value": 400,
+                    "question": "Famous among the smaller set for singing \"Let It Go\", she earned her first Tony nomination in \"Rent\"",
+                    "answer": "Idina Menzel",
+                    "image": "2023-09-13/2_400.jpg"
+                },
+                {
+                    "value": 600,
+                    "question": "Say \"Sir\" to this actor, nominated for a 2001 Oscar for his portrayal of Gandalf",
+                    "answer": "Ian McKellen",
+                    "image": "2023-09-13/2_600.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "James Osterberg has been known as this since his days fronting proto-punk-rockers The Stooges",
+                    "answer": "Iggy Pop",
+                    "image": "2023-09-13/2_800.jpg"
+                },
+                {
+                    "value": 1000,
+                    "question": "\"We'll always have Paris\" & her as Ilsa in \"Casablanca\"",
+                    "answer": "Ingrid Bergman",
+                    "image": "2023-09-13/2_1000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "THE STATE OF CONGRESS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Karen Shepherd, Mitt Romney, David King",
+                    "answer": "Utah"
+                },
+                {
+                    "value": 400,
+                    "question": "Solomon Foot, Bernie Sanders, the Anti-Jacksonian Party's Dudley Chase",
+                    "answer": "Vermont"
+                },
+                {
+                    "value": 600,
+                    "question": "Dick Cheney, Malcolm Wallop, Milward Simpson (the only Milward to serve the state... so far)",
+                    "answer": "Wyoming"
+                },
+                {
+                    "value": 800,
+                    "question": "Benjamin Bourne in the 1790s, Lincoln Chafee, Ambrose Burnside",
+                    "answer": "Rhode Island"
+                },
+                {
+                    "value": 1000,
+                    "question": "Thomas Hart Benton, Xenophon P. Wilfley, Sempronius H. Boyd",
+                    "answer": "Missouri"
+                }
+            ]
+        },
+        {
+            "name": "I'M JUST A BILL, BILLY OR WILLIAM",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "He helped computerize his high school's scheduling system, went to Harvard in the '70s, dropped out & was a billionaire by 1987",
+                    "answer": "Bill Gates"
+                },
+                {
+                    "value": 400,
+                    "question": "In 1887 he began running the San Francisco Examiner, which his dad acquired 7 years before",
+                    "answer": "Hearst"
+                },
+                {
+                    "value": 600,
+                    "question": "Billy Joel's time playing a lounge in L.A. led to this, Billy's first Top 40 hit; great tune, but \"tonic & gin\" still sounds weird",
+                    "answer": "\"Piano Man\""
+                },
+                {
+                    "value": 800,
+                    "question": "William Thomson is a fine name for a physicist, but after developing the absolute temp. scale, Lord this had a nice ring",
+                    "answer": "(Lord) Kelvin"
+                },
+                {
+                    "value": 1000,
+                    "question": "In May 2019, this mayor of New York threw his hat in the ring to run for president, but by September, the hat had been returned",
+                    "answer": "de Blasio",
+                    "image": "2023-09-13/4_1000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "STRAIGHT FIRE",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "L'Oreal's Colorista is just about the coolest thing ever to give this of yours a little more flair",
+                    "answer": "hair"
+                },
+                {
+                    "value": 400,
+                    "question": "Your new PlayStation 4 is the bomb, but a couple extra DualShock these for your crew would rock",
+                    "answer": "a controller"
+                },
+                {
+                    "value": 600,
+                    "question": "If you've got the perfect getup, show your peeps online by posting an \"OOTD\", your this \"of the day\"",
+                    "answer": "an outfit"
+                },
+                {
+                    "value": 800,
+                    "question": "You can buy do-it-yourself kits for making these Japanese rice-based treats filled with ice cream",
+                    "answer": "mochi"
+                },
+                {
+                    "value": 1000,
+                    "question": "Beats by this guy is known for its headphones",
+                    "answer": "Dr. Dre",
+                    "image": "2023-09-13/5_1000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "3 CONSECUTIVE CONSONANTS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The sovereign's seat",
+                    "answer": "a throne"
+                },
+                {
+                    "value": 400,
+                    "question": "You're not outta your gourd! You're into this gourd that's big on Oct. 31",
+                    "answer": "a pumpkin"
+                },
+                {
+                    "value": 600,
+                    "question": "Money granted to a student to pursue studies",
+                    "answer": "a scholarship"
+                },
+                {
+                    "value": 800,
+                    "question": "Past participle of seek",
+                    "answer": "sought"
+                },
+                {
+                    "value": 1000,
+                    "question": "Geometry term for triangles that can be exactly superimposed, one on the other",
+                    "answer": "congruent",
+                    "image": "2023-09-13/6_1000.jpg"
+                }
+            ]
+        }
+    ]
+}

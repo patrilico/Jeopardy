@@ -1,0 +1,189 @@
+{
+    "categories": [
+        {
+            "name": "TO SIR PAUL, WITH LOVE",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Sir Paul McCartney was born on June 18, 1942 in this city--3 very important co-workers of his were born there, too",
+                    "answer": "Liverpool"
+                },
+                {
+                    "value": 800,
+                    "question": "Paul co-founded the non-profit \"Meat Free\" this, promoting health & conservation with \"at least one plant-based day each week\"",
+                    "answer": "Monday"
+                },
+                {
+                    "value": 1200,
+                    "question": "Deep in the mix & perhaps making a mistake just before the \"na na na\" part, a Beatle exclaims, \"(Bleepin') hell!\" on this long classic",
+                    "answer": "\"Hey Jude\""
+                },
+                {
+                    "value": 1600,
+                    "question": "On April 21, 1990 at Maracana Stadium, Paul had an intimate show for 184,000 friends as he rocked in this huge South American city",
+                    "answer": "Rio de Janeiro"
+                },
+                {
+                    "value": 2000,
+                    "question": "The Beatles won a music Oscar for this 1970 doc., but finding itself in times of trouble, the band didn't accept in person",
+                    "answer": "Let It Be"
+                }
+            ]
+        },
+        {
+            "name": "\"C\"s THE DAY",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "August 4 celebrates the birth of this branch of the U.S. military",
+                    "answer": "the Coast Guard"
+                },
+                {
+                    "value": 800,
+                    "question": "This holiday that commemorates the victory of Mexico at the Battle of Puebla is also a day to celebrate Mexican culture",
+                    "answer": "Cinco de Mayo"
+                },
+                {
+                    "value": 1200,
+                    "question": "\"Dedication\" in Hebrew, it can be spelled without a \"C\" & actually spans 8 days, but you still need to know it now",
+                    "answer": "Chanukah"
+                },
+                {
+                    "value": 1600,
+                    "question": "September 17 commemorates the signing of this in 1787",
+                    "answer": "the Constitution"
+                },
+                {
+                    "value": 2000,
+                    "question": "Catholics usually celebrate the Thursday after Trinity Sunday as the feast of this, Latin for \"Christ's body\"",
+                    "answer": "Corpus Christi"
+                }
+            ]
+        },
+        {
+            "name": "ALSO A CANDY",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Athos, Porthos & Aramise",
+                    "answer": "Three Musketeers"
+                },
+                {
+                    "value": 800,
+                    "question": "It's when you get your peanuts for all your hard work",
+                    "answer": "payday"
+                },
+                {
+                    "value": 1200,
+                    "question": "An article called the Chicago Bears of 1938 this kind of team since they set \"a season's record of 56 fumbles\"",
+                    "answer": "a butterfinger team"
+                },
+                {
+                    "value": 1600,
+                    "question": "This purrrfect club of Whig leaders in London sounds just like a chocolate wafer bar",
+                    "answer": "a Kit-Cat"
+                },
+                {
+                    "value": 2000,
+                    "question": "NASA called the activity in this type of galaxy reminiscent of the end of a pyrotechnics show",
+                    "answer": "a starburst (galaxy)",
+                    "image": "2023-09-13/3_2000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "PUEBLOS MÁGICOS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Found in the state of Jalisco is this magic place that lends its name to this omnipresent Mexican liquor",
+                    "answer": "Tequila"
+                },
+                {
+                    "value": 800,
+                    "question": "This Baja border town whose name begins & ends with the same 2 letters is known for a beer with the same name & great eats",
+                    "answer": "Tecate"
+                },
+                {
+                    "value": 1200,
+                    "question": "The beautiful town of Cholula lies near the foot of Popocatépetl, not just a mountain but one of these",
+                    "answer": "a volcano",
+                    "image": "2023-09-13/4_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "\"X\" marks the spot of this cobblestoned town renowned as the \"silver capital of the world\"",
+                    "answer": "Taxco"
+                },
+                {
+                    "value": 2000,
+                    "question": "Swim with whale sharks at Isla Mujeres a Pueblo Mágico in this 2-word Mexican state of which Cozumel is a part",
+                    "answer": "Quintana Roo",
+                    "image": "2023-09-13/4_2000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "& WE HAVE A NOVEL TITLE",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "This title is \"the temperature at which book-paper catches fire and burns\"",
+                    "answer": "Fahrenheit 451"
+                },
+                {
+                    "value": 800,
+                    "question": "\"'Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin\"' to do this",
+                    "answer": "To Kill a Mockingbird"
+                },
+                {
+                    "value": 1200,
+                    "question": "\"She clutched the child so fiercely to her breast, that it sent forth a cry; she turned her eyes  downward at\" this symbol",
+                    "answer": "The Scarlet Letter"
+                },
+                {
+                    "value": 1600,
+                    "question": "This numeric title \"required that each censored letter bear the censoring officer's name\"",
+                    "answer": "Catch-22"
+                },
+                {
+                    "value": 2000,
+                    "question": "\"'I would give a good deal to know how it comes about that\"' this wealthy title man \"'is acquainted with M. de Villefort\"'",
+                    "answer": "the Count of Monte Cristo"
+                }
+            ]
+        },
+        {
+            "name": "15-LETTER WORDS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "In Spanish ¡felicidades! is one way to say this",
+                    "answer": "congratulations"
+                },
+                {
+                    "value": 800,
+                    "question": "It's another name for a movie's director of photography; Conrad Hall was a great one",
+                    "answer": "a cinematographer",
+                    "image": "2023-09-13/6_800.jpg"
+                },
+                {
+                    "value": 1200,
+                    "question": "Described in 3 of the gospels, it's the term for Jesus' change in appearance to divine form up on a mountain",
+                    "answer": "transfiguration"
+                },
+                {
+                    "value": 1600,
+                    "question": "It's the phenomenon exhibited here in waves on the California coast, caused by light-emitting organisms",
+                    "answer": "bioluminescence",
+                    "image": "2023-09-13/6_1600.jpg"
+                },
+                {
+                    "value": 2000,
+                    "question": "From French & Latin for \"nimble finger\", it's a fancy name for a sleight of hand magician",
+                    "answer": "a prestidigitator"
+                }
+            ]
+        }
+    ]
+}

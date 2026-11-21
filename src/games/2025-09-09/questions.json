@@ -1,0 +1,184 @@
+{
+    "categories": [
+        {
+            "name": "ACCIDENTS WILL HAPPEN",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Wilson Greatbatch was trying to record heart sounds, but using an incorrect resistor led him to invent the first implantable this",
+                    "answer": "a pacemaker"
+                },
+                {
+                    "value": 400,
+                    "question": "John Walker scraped some combustible materials he'd been mixing off the wooden stirrer & it burst into flames; this was born",
+                    "answer": "a (friction) match"
+                },
+                {
+                    "value": 600,
+                    "question": "Albert Hofmann was out to discover new stimulants when he accidentally dosed himself with this drug; pretty groovy",
+                    "answer": "LSD"
+                },
+                {
+                    "value": 800,
+                    "question": "He returned from a summer vacation to find a contaminated Petri dish, leading to the discovery of penicillin",
+                    "answer": "Fleming"
+                },
+                {
+                    "value": 1000,
+                    "question": "One of his signature effects used in early films like \"A Trip to the Moon\" was created when the film in his camera jammed up",
+                    "answer": "Méliès"
+                }
+            ]
+        },
+        {
+            "name": "PARENTING TIPS FROM THE VICTORIAN ERA",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Victorian doc Henry Kennedy said kids got the best sleep pointed in this direction, like a compass, cuz, you know, electricity",
+                    "answer": "north"
+                },
+                {
+                    "value": 400,
+                    "question": "In 1839 Thomas Bull (M.D.) wrote that women with nervous temperaments \"ought never to suckle\" & should use this kind of nurse",
+                    "answer": "a wet nurse"
+                },
+                {
+                    "value": 600,
+                    "question": "Baby Constance needs a teething toy? Put the feet of one of these burrowing creatures around her neck & let her rip",
+                    "answer": "a mole"
+                },
+                {
+                    "value": 800,
+                    "question": "Dainty dresses allowed easy access for a diaper change; here's this future prez in one while rocking some mean bangs",
+                    "answer": "FDR"
+                },
+                {
+                    "value": 1000,
+                    "question": "Avoid giving tiny Agnes a green toy--it could have been painted with Paris green, full of this rat poison poorly regulated",
+                    "answer": "arsenic"
+                }
+            ]
+        },
+        {
+            "name": "RIVERS IN HISTORY",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Coming up this river to attack Paris in the 9th c., Vikings were met by the garrison of Odo, who repulsed them--& turned them back",
+                    "answer": "the Seine"
+                },
+                {
+                    "value": 400,
+                    "question": "This man's forces won the Battle of the Jhelum River in Asia in 326 B.C., but advanced no farther & turned back for home",
+                    "answer": "Alexander the Great"
+                },
+                {
+                    "value": 600,
+                    "question": "In 1916 a group who resented this healer's influence shot him, then threw his body in the Neva River",
+                    "answer": "Rasputin"
+                },
+                {
+                    "value": 800,
+                    "question": "Including Singidunum, a series of fortresses known as the Limes on this river marked the northern boundary of the Roman empire",
+                    "answer": "the Danube"
+                },
+                {
+                    "value": 1000,
+                    "question": "This longest river in Spain was the site of a bloody 1938 battle ending in a Republican defeat & Catalonia's isolation",
+                    "answer": "Ebro"
+                }
+            ]
+        },
+        {
+            "name": "BODY PARTS EVERYWHERE",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "On your shoe: this flap of material that keeps the laces from rubbing you the wrong way",
+                    "answer": "the tongue"
+                },
+                {
+                    "value": 400,
+                    "question": "Along the side of the road: this area less pleasantly known as the breakdown lane",
+                    "answer": "the shoulder"
+                },
+                {
+                    "value": 600,
+                    "question": "On the high seas, this part of a sail that swells out when it's filled with wind",
+                    "answer": "the belly"
+                },
+                {
+                    "value": 800,
+                    "question": "Inside your umbrella, these flexible rods providing structure & shape",
+                    "answer": "ribs"
+                },
+                {
+                    "value": 1000,
+                    "question": "Up on the roof, these sharp inclined edges where two sloping sides meet",
+                    "answer": "the hips"
+                }
+            ]
+        },
+        {
+            "name": "FICTIONAL CHARACTERS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "In a kids' book, we meet this title character along with his siblings Flopsy, Mopsy & Cotton-tail",
+                    "answer": "Peter Rabbit"
+                },
+                {
+                    "value": 400,
+                    "question": "Quixada, Quesada or even Quexana may have been the original surname of the character who chose this name for himself",
+                    "answer": "Don Quixote"
+                },
+                {
+                    "value": 600,
+                    "question": "At the end of an 1831 novel, his skeleton is found in a cellar with a curved spine & soon crumbles into dust",
+                    "answer": "Quasimodo (the Hunchback of Notre Dame)"
+                },
+                {
+                    "value": 800,
+                    "question": "A drug addict named William Lee is the narrator of this novel by William S. Burroughs",
+                    "answer": "Naked Lunch"
+                },
+                {
+                    "value": 1000,
+                    "question": "Jilted as a bride, she calls Satis House home in \"Great Expectations\"",
+                    "answer": "Miss Havisham"
+                }
+            ]
+        },
+        {
+            "name": "CANADIAN GIRLFRIENDS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "In the early 2010s, Brody Jenner had a Canadian girlfriend, this singer",
+                    "answer": "Avril Lavigne"
+                },
+                {
+                    "value": 400,
+                    "question": "Director Brian De Palma dated Margot Kidder in the early '70s, before her fame as this reporter for the Daily Planet",
+                    "answer": "Lois Lane"
+                },
+                {
+                    "value": 600,
+                    "question": "Leon Draisaitl stars for this northernmost NHL team but went to warmer Spain to propose to Celeste Desjardins",
+                    "answer": "Edmonton"
+                },
+                {
+                    "value": 800,
+                    "question": "The not so \"Mysterious Affair\" of this One Direction alumnus in 2023 & '24 was with Canadian actress Taylor Russell",
+                    "answer": "Harry Styles"
+                },
+                {
+                    "value": 1000,
+                    "question": "If the word is apt after 9 years & 2 kids, the girlfriend of \"Price Is Right\" champ Jamie Linden is this \"Hot Chick\" from \"The Notebook\"",
+                    "answer": "Rachel McAdams"
+                }
+            ]
+        }
+    ]
+}

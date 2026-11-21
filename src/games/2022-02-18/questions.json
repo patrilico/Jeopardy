@@ -1,0 +1,186 @@
+{
+    "categories": [
+        {
+            "name": "WORLD HISTORY",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "A government crackdown on protesters in Beijing on June 4, 1989 took place in this square",
+                    "answer": "Tiananmen Square"
+                },
+                {
+                    "value": 400,
+                    "question": "When papal armies threatened Florence in 1529, this native son & genius with stone drew up plans to fortify the city",
+                    "answer": "Michelangelo"
+                },
+                {
+                    "value": 600,
+                    "question": "Spain's second queen of this name took the throne in 1833",
+                    "answer": "Isabella"
+                },
+                {
+                    "value": 800,
+                    "question": "52 Americans who were held hostage in 1979 & 1980 were seized from the U.S. embassy in this city",
+                    "answer": "Tehran"
+                },
+                {
+                    "value": 1000,
+                    "question": "Under revolutionary leader Emilio Aguinaldo, this country declared its independence from Spain in 1898",
+                    "answer": "the Philippines"
+                }
+            ]
+        },
+        {
+            "name": "LET'S ROCK & ROLL!",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "This \"stately\" sushi order has crab, avocado & cucumber",
+                    "answer": "a California roll"
+                },
+                {
+                    "value": 400,
+                    "question": "We're never gonna give up this bait-&-switch prank meme featuring Mr. Astley & an '80s pop hit",
+                    "answer": "Rick Rolling"
+                },
+                {
+                    "value": 600,
+                    "question": "Hominid use of this variety of quartz to make tools goes back millions of years; we \"-locked\" it into early firearms a bit later",
+                    "answer": "flint"
+                },
+                {
+                    "value": 800,
+                    "question": "Preexisting rocks that roll with the changes in composition due to high temperature or pressure become this class of rock",
+                    "answer": "metamorphic"
+                },
+                {
+                    "value": 1000,
+                    "question": "Final \"X\" marks the spot for this striped silica variety; one example is the red-&-white banded carnelian",
+                    "answer": "onyx"
+                }
+            ]
+        },
+        {
+            "name": "A DAY AT THE SORBONNE",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Your new stylo, one of these, is very stylish, Marie-Noelle; write me a letter!",
+                    "answer": "a pen"
+                },
+                {
+                    "value": 400,
+                    "question": "For the geography test, the teacher made sure these, including une carte de France, were rolled up",
+                    "answer": "a map"
+                },
+                {
+                    "value": 600,
+                    "question": "I was too late for petit dejeuner, so it's time for regular old dejeuner, also called this--so off to the cafeteria",
+                    "answer": "lunch"
+                },
+                {
+                    "value": 800,
+                    "question": "If you need a power cable for your ordinateur portable, this 6-letter type of tech, let Madame Ivie know",
+                    "answer": "a laptop"
+                },
+                {
+                    "value": 1000,
+                    "question": "I just call it a folder, but when my French friend uses this 7-letter word, I feel like I'm in a spy movie",
+                    "answer": "a dossier"
+                }
+            ]
+        },
+        {
+            "name": "COLLEGE TEAM NAMES",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The Jayhawks rock & chalk for this Big 12 school",
+                    "answer": "Kansas"
+                },
+                {
+                    "value": 400,
+                    "question": "They fight on at Arkansas-Little Rock as well as Southern Cal",
+                    "answer": "Trojans"
+                },
+                {
+                    "value": 600,
+                    "question": "Foes of Seton Hill University have to face off with these mythical bird-lion hybrids",
+                    "answer": "Griffins"
+                },
+                {
+                    "value": 800,
+                    "question": "The University of Pennsylvania's teams have this name",
+                    "answer": "the Quakers"
+                },
+                {
+                    "value": 1000,
+                    "question": "These predators play for Bowdoin College, home to the Peary-MacMillan Arctic Museum",
+                    "answer": "the Polar Bears"
+                }
+            ]
+        },
+        {
+            "name": "SALTY",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "With a name going back to Quechuan, it's strips of beef or pork that have been dehydrated or dried in the sun",
+                    "answer": "jerky"
+                },
+                {
+                    "value": 400,
+                    "question": "This treat from Orville Redenbacher is \"a little sweet, a little salty--and a whole lot of yummy\"",
+                    "answer": "kettle corn"
+                },
+                {
+                    "value": 600,
+                    "question": "Relatively healthy, here are chips made with this veggie served with vegan cheese",
+                    "answer": "kale",
+                    "image": "2022-02-18/5_600.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "It's the 4-letter name for the sheets of seaweed that wrap around your sushi",
+                    "answer": "nori"
+                },
+                {
+                    "value": 1000,
+                    "question": "These little fish come packed in cans, like of King Oscar's Royal Selection",
+                    "answer": "sardines"
+                }
+            ]
+        },
+        {
+            "name": "SCIENCE FICTION",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "The character of chaos theorist Ian Malcolm was introduced in this Michael Crichton novel about a unique island attraction",
+                    "answer": "Jurassic Park"
+                },
+                {
+                    "value": 400,
+                    "question": "In 2021 he dropped \"Project Hail Mary\", in which he embraced familiar themes about a lone astronaut struggling to survive",
+                    "answer": "(Andy) Weir"
+                },
+                {
+                    "value": 600,
+                    "question": "In this \"colorful\" author's \"An Absolutely Remarkable Thing\", alien sculptures called the Carls pop up all over Earth",
+                    "answer": "Hank Green"
+                },
+                {
+                    "value": 800,
+                    "question": "This author of \"Do Androids Dream of Electric Sheep?\" said his life's work was justified by the 1982 film adaptation \"Blade Runner\"",
+                    "answer": "(Phillip K.) Dick",
+                    "image": "2022-02-18/6_800.jpg"
+                },
+                {
+                    "value": 1000,
+                    "question": "Sequels to this novel about children trained as soldiers include \"Xenocide\" & \"Children of the Mind\"",
+                    "answer": "Ender's Game"
+                }
+            ]
+        }
+    ]
+}

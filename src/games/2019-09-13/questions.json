@@ -1,0 +1,184 @@
+{
+    "categories": [
+        {
+            "name": "FANTASY ISLAND",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Peter Pan can bring visitors to this island, home to the Lost Boys",
+                    "answer": "Never-Never Land"
+                },
+                {
+                    "value": 400,
+                    "question": "This title character travels to the islands of Laputa & Lilliput",
+                    "answer": "Gulliver"
+                },
+                {
+                    "value": 600,
+                    "question": "This titular tank engine & his friends inhabit the island of Sodor",
+                    "answer": "Thomas"
+                },
+                {
+                    "value": 800,
+                    "question": "The temple of Poseidon was on this legendary island that was said to lie west of the Strait of Gibraltar",
+                    "answer": "Atlantis"
+                },
+                {
+                    "value": 1000,
+                    "question": "In one version of the legend, King Arthur was offered Excalibur when Merlin brought him to this island",
+                    "answer": "Avalon"
+                }
+            ]
+        },
+        {
+            "name": "MOTTOES",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "This full Latin motto of the U.S. Marine Corps symbolizes its members' lifelong commitment",
+                    "answer": "\"Semper Fidelis\""
+                },
+                {
+                    "value": 400,
+                    "question": "When asked \"For what?\" with regard to this motto of the Boy Scouts, Robert Baden-Powell said, \"Why, for any old thing\"",
+                    "answer": "\"Be Prepared\""
+                },
+                {
+                    "value": 600,
+                    "question": "Like Truman, Carter had a sign with this motto in the Oval Office",
+                    "answer": "\"The Buck Stops Here\""
+                },
+                {
+                    "value": 800,
+                    "question": "\"God, Home and Country\" is the motto of this patriotic group, DAR for short",
+                    "answer": "Daughters of the American Revolution"
+                },
+                {
+                    "value": 1000,
+                    "question": "The New York Times has used this 7-word motto on its front page since 1897",
+                    "answer": "\"All the News That's Fit to Print\""
+                }
+            ]
+        },
+        {
+            "name": "LIVE ENTERTAINMENT",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "A group of street performers in Quebec became this circus troupe that puts on shows like Mystère",
+                    "answer": "Cirque du Soleil"
+                },
+                {
+                    "value": 400,
+                    "question": "The Bruise Brothers are a Chicago-based men's team in this contact sport on wheels",
+                    "answer": "roller derby"
+                },
+                {
+                    "value": 600,
+                    "question": "Want to see this PBS music series live? Head to Texas' Moody Theater",
+                    "answer": "Austin City Limits"
+                },
+                {
+                    "value": 800,
+                    "question": "Woody Harrelson & Jamie Foxx were in the casts of these 2 Norman Lear shows performed live on ABC in 2019",
+                    "answer": "The Jeffersons & All in the Family"
+                },
+                {
+                    "value": 1000,
+                    "question": "The UCB is this \"Brigade\" that does improv shows 7 nights a week",
+                    "answer": "Upright Citizens Brigade"
+                }
+            ]
+        },
+        {
+            "name": "OFFICIAL LANGUAGES",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "In Cuba",
+                    "answer": "Spanish"
+                },
+                {
+                    "value": 400,
+                    "question": "In Egypt",
+                    "answer": "Arabic"
+                },
+                {
+                    "value": 600,
+                    "question": "In Benin",
+                    "answer": "French"
+                },
+                {
+                    "value": 800,
+                    "question": "On Cyprus, these 2 languages",
+                    "answer": "Turkish & Greek"
+                },
+                {
+                    "value": 1000,
+                    "question": "In Brunei, this language of a nearby peninsula",
+                    "answer": "Malay"
+                }
+            ]
+        },
+        {
+            "name": "HUNTING & FISHING",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Also a poker hand, in hunting this word means to cause game birds to break cover or take flight",
+                    "answer": "flush"
+                },
+                {
+                    "value": 400,
+                    "question": "Make sure all flesh is removed from the hide before you begin this process of turning it to leather or things will get smelly",
+                    "answer": "tanning"
+                },
+                {
+                    "value": 600,
+                    "question": "In Florida, the bag limit for the largemouth type of this is 5 a day, so don't get greedy",
+                    "answer": "bass"
+                },
+                {
+                    "value": 800,
+                    "question": "This style of fishing means to tow a baited line, not a net, behind a slow-moving boat",
+                    "answer": "trolling"
+                },
+                {
+                    "value": 1000,
+                    "question": "In Maryland, there are 3 seasons for deer: regular firearms, muzzle-loaded firearms & this non-firearm activity",
+                    "answer": "archery"
+                }
+            ]
+        },
+        {
+            "name": "ANTONYMS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "This verb, the opposite of \"succeed\" , has made a comeback as a noun, especially following \"epic\"",
+                    "answer": "fail"
+                },
+                {
+                    "value": 400,
+                    "question": "PC Magazine's online encyclopedia uses these 2 antonyms for hard-to-figure-out & easy-to-figure-out passwords",
+                    "answer": "strong & weak"
+                },
+                {
+                    "value": 600,
+                    "question": "Katy Perry's opposites primer \"Hot n Cold\" rhymes, \"we fight, we break up, we kiss, we\" do this",
+                    "answer": "make up"
+                },
+                {
+                    "value": 800,
+                    "question": "This adjective is the opposite of \"attentive\"; legally, it refers to one who fails to use \"due care\" & \"ordinary prudence\"",
+                    "answer": "negligent (negligence accepted)"
+                },
+                {
+                    "value": 1000,
+                    "question": "Leptodermous means having a thin skin--elephants know this similar word means the opposite",
+                    "answer": "pachydermous"
+                }
+            ]
+        }
+    ]
+}

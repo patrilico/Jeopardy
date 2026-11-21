@@ -1,0 +1,184 @@
+{
+    "categories": [
+        {
+            "name": "18th CENTURY NOTABLES",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "An early proponent of Newton, Laura Bassi was the first female professor of this science in Europe",
+                    "answer": "physics"
+                },
+                {
+                    "value": 800,
+                    "question": "This archduchess & empress led Austria through the Seven Years' War & was the mother of Marie Antoinette",
+                    "answer": "Maria Theresa"
+                },
+                {
+                    "value": 1200,
+                    "question": "Also an engraver & an artist, this poet had a lyrical menagerie that included \"The Lamb\" & \"The Tyger\"",
+                    "answer": "William Blake"
+                },
+                {
+                    "value": 1600,
+                    "question": "Published in 1776, \"The Wealth of Nations\" by this Scot became a foundational study of the history of economics",
+                    "answer": "Adam Smith"
+                },
+                {
+                    "value": 2000,
+                    "question": "Toussaint Louverture emancipated enslaved people on this island & lobbied for independence there",
+                    "answer": "Hispaniola"
+                }
+            ]
+        },
+        {
+            "name": "NEW YORKERS HEAD SOUTH",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Harlem's Brock Peters played the unjustly accused Tom Robinson in this Alabama-set film",
+                    "answer": "To Kill a Mockingbird"
+                },
+                {
+                    "value": 800,
+                    "question": "Eli Wallach was a Sicilian seducer in Mississippi in 1956's \"Baby Doll\", from a steamy script by this Southern playwright",
+                    "answer": "Tennessee Williams"
+                },
+                {
+                    "value": 1200,
+                    "question": "Manhattan-raised singer Alicia Keys' \"Secret Life\" as an actress has included the role of June in this Southern-set film",
+                    "answer": "The Secret Life of Bees"
+                },
+                {
+                    "value": 1600,
+                    "question": "David Alan Stern from Brooklyn was the dialect coach on this 1989 ensemble film, which amused Dolly Parton, who played Truvy",
+                    "answer": "Steel Magnolias"
+                },
+                {
+                    "value": 2000,
+                    "question": "This actress from New York had accent-trained for a movie called \"Tomato Red\", helping with her role on \"Ozark\"",
+                    "answer": "Julia Garner"
+                }
+            ]
+        },
+        {
+            "name": "GODS' LINKEDIN",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "If you need a helpful hunt deity, Mixcoatl comes highly recommended by these Tenochtitlan residents",
+                    "answer": "the Aztecs"
+                },
+                {
+                    "value": 800,
+                    "question": "Her boss-dad Zeus calls her a headache, but here on the Acropolis, we call her Pallas",
+                    "answer": "Athena"
+                },
+                {
+                    "value": 1200,
+                    "question": "This god got a bad performance review when he failed to smash the skull of Jörmungandr; he'll have another shot at Ragnarök",
+                    "answer": "Thor"
+                },
+                {
+                    "value": 1600,
+                    "question": "If you're looking for a bountiful harvest, this Roman goddess of grains really reaps it in",
+                    "answer": "Ceres"
+                },
+                {
+                    "value": 2000,
+                    "question": "This consort of Shiva is great at vanquishing foes but she insists her belt of severed hands is business casual; don't tell HR",
+                    "answer": "Kali"
+                }
+            ]
+        },
+        {
+            "name": "I'M GETTING CRAFTY IN MY OLD AGE",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "I've mastered origami, the art of folding paper, & now I'm tackling kirigami, the art of folding & also doing this to paper",
+                    "answer": "cutting"
+                },
+                {
+                    "value": 800,
+                    "question": "I bought an antique physiognotrace at an estate sale & I use it for making these portraits, named for a French finance minister",
+                    "answer": "silhouettes"
+                },
+                {
+                    "value": 1200,
+                    "question": "I attend a weekly crop, an event often likened to a quilting bee that originated in this crafty activity",
+                    "answer": "scrapbooking"
+                },
+                {
+                    "value": 1600,
+                    "question": "I've found a new use for olive oil: making this type of soap named for a region of Spain",
+                    "answer": "Castile"
+                },
+                {
+                    "value": 2000,
+                    "question": "When I hear this word, I no longer think soup but \"pottery that's been fired once in a kiln & hasn't been glazed\"",
+                    "answer": "bisque"
+                }
+            ]
+        },
+        {
+            "name": "\"J\" WORDS",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Before it was a toy, it meant a swindler who switched boxes of coins during a transaction",
+                    "answer": "jack-in-the-box"
+                },
+                {
+                    "value": 800,
+                    "question": "The 1920s gave us this word for a beat-up old car",
+                    "answer": "jalopy"
+                },
+                {
+                    "value": 1200,
+                    "question": "This word for a type of caretaker comes from the name of a minor Roman deity",
+                    "answer": "a janitor"
+                },
+                {
+                    "value": 1600,
+                    "question": "This word for a type of cutting tool comes from the name of a dance that involves a similar up & down motion",
+                    "answer": "a jigsaw"
+                },
+                {
+                    "value": 2000,
+                    "question": "It can be any kind of big, festive gathering, no longer just of Boy Scouts",
+                    "answer": "jamboree"
+                }
+            ]
+        },
+        {
+            "name": "SIMILAR COUNTRY NAMES",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "In October 1990 Iraq, facing international isolation, restored diplomatic relations with this neighbor",
+                    "answer": "Iran"
+                },
+                {
+                    "value": 800,
+                    "question": "One in Europe & one far from Europe, these 2 countries take their names from words meaning \"eastern\" & \"southern\"",
+                    "answer": "Austria & Australia"
+                },
+                {
+                    "value": 1200,
+                    "question": "Santo Domingo & Roseau are the capital cities of these 2 Caribbean island nations",
+                    "answer": "the Dominican Republic & Dominica"
+                },
+                {
+                    "value": 1600,
+                    "question": "Africa is home to these two countries seen here",
+                    "answer": "Gambia & Zambia"
+                },
+                {
+                    "value": 2000,
+                    "question": "These 2 European countries gained independence in the early '90s, & in 2018 their PMs Fico & Cerar confusingly quit the same week",
+                    "answer": "Slovenia & Slovakia"
+                }
+            ]
+        }
+    ]
+}

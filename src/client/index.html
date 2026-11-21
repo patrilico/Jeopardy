@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071129" />
+  <title>Jeopardy! Game</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/controls.css" />
+</head>
+<body class="role-screen">
+  <!-- Choose the screen this device will use. -->
+  <main id="role-selection" class="role-shell">
+    <div class="role-shell__content">
+      <div class="brand-mark">JEOPARDY<span>!</span></div>
+      <h1>Let’s play<br /><em>Jeopardy!</em></h1>
+      <p class="role-intro">Choose Your Role.</p>
+      <div class="role-grid">
+        <button id="player-btn" class="role-card role-card--player" type="button">
+          <span class="role-card__icon" aria-hidden="true">01</span>
+          <span class="role-card__text"><strong>Play the game</strong><small>Join as a contestant and get your buzzer.</small></span>
+          <span class="role-card__arrow" aria-hidden="true">↗</span>
+        </button>
+        <button id="main-table-btn" class="role-card" type="button">
+          <span class="role-card__icon" aria-hidden="true">02</span>
+          <span class="role-card__text"><strong>Show the board</strong><small>Display the clues for everyone to see.</small></span>
+          <span class="role-card__arrow" aria-hidden="true">↗</span>
+        </button>
+        <button id="quiz-master-btn" class="role-card" type="button">
+          <span class="role-card__icon" aria-hidden="true">03</span>
+          <span class="role-card__text"><strong>Host the game</strong><small>Manage clues, scores, and rounds.</small></span>
+          <span class="role-card__arrow" aria-hidden="true">↗</span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Main board and game selection retain the original presentation. -->
+  <div id="game-selection" style="display: none">
+    <h2>Select a Game</h2>
+    <ul id="game-list"></ul>
+  </div>
+  <div id="board-container" style="display: none">
+    <div id="jeopardy-board"></div>
+  </div>
+
+  <!-- Contestant registration and buzzer. -->
+  <main id="player-name-container" class="join-screen" style="display: none">
+    <div class="join-card">
+      <div class="brand-mark brand-mark--small">JEOPARDY<span>!</span></div>
+      <div class="eyebrow"><span></span> CONTESTANT CHECK-IN</div>
+      <h1>Ready to play?</h1>
+      <p>Enter your name to join the game. Your buzzer will appear on the next screen.</p>
+      <label for="player-name-input">Your name</label>
+      <input type="text" id="player-name-input" maxlength="28" autocomplete="name" placeholder="e.g. Alex" />
+      <p id="player-name-error" class="field-error" role="alert"></p>
+      <button id="submit-name-btn" class="primary-button" type="button">Join the game <span aria-hidden="true">→</span></button>
+      <button class="back-link" type="button" data-back-to-roles>← Back to roles</button>
+    </div>
+  </main>
+
+  <main id="player-view" style="display: none">
+    <header id="player-header" class="player-topbar">
+      <div><div class="brand-mark brand-mark--small">JEOPARDY<span>!</span></div><div class="topbar-caption">CONTESTANT</div></div>
+      <div class="player-identity"><span>PLAYING AS</span><h2 id="player-name"></h2></div>
+      <div class="player-total"><span>YOUR SCORE</span><h2 id="player-score">$0</h2></div>
+    </header>
+    <div id="player-content" class="player-stage">
+      <div class="stage-heading"><span class="status-dot"></span><span id="player-status" aria-live="polite">Waiting for the next clue</span></div>
+      <div id="buzzer-container" class="buzzer-area">
+        <div class="buzzer-ring"><button id="buzzer" type="button" disabled><span>BUZZ</span><small>IN</small></button></div>
+      </div>
+      <div id="player-message" class="player-action-card" style="display: none">
+        <div class="eyebrow"><span></span><span id="player-message-kicker">YOUR TURN</span></div>
+        <h1 id="player-message-title"></h1>
+        <p id="player-message-body"></p>
+      </div>
+      <div id="wager-container" class="player-action-card" style="display: none">
+        <div class="eyebrow"><span></span> TIME TO WAGER</div>
+        <h1>Make it count.</h1>
+        <p id="wager-help">Enter the amount you’d like to wager.</p>
+        <label for="wager-input">Your wager ($)</label>
+        <input type="number" id="wager-input" min="0" step="1" inputmode="numeric" />
+        <p id="wager-error" class="field-error" role="alert"></p>
+        <button id="submit-wager-btn" class="primary-button" type="button">Submit wager <span aria-hidden="true">→</span></button>
+      </div>
+      <div id="final-answer-container" class="player-action-card" style="display: none">
+        <div class="eyebrow"><span></span> FINAL JEOPARDY!</div>
+        <h1>What is your response?</h1>
+        <p>Your answer is submitted automatically when the timer ends.</p>
+        <label for="final-answer-input">Your response</label>
+        <input type="text" id="final-answer-input" maxlength="250" autocomplete="off" placeholder="What is…" />
+      </div>
+      <div id="winner-announcement" style="display: none" aria-live="polite"></div>
+    </div>
+    <div id="score-table-footer" style="display: none" aria-label="Other contestants' scores"></div>
+  </main>
+
+  <!-- Host controls. -->
+  <main id="quiz-master-view" style="display: none">
+    <header class="host-topbar">
+      <div><div class="brand-mark brand-mark--small">JEOPARDY<span>!</span></div><span class="host-topbar__divider"></span><span class="topbar-caption">HOST CONTROL</span></div>
+      <div class="host-live"><span class="status-dot"></span><span id="host-round">JEOPARDY! ROUND</span></div>
+    </header>
+    <div class="host-content">
+      <div class="host-heading"><div><div class="eyebrow"><span></span> BEHIND THE BOARD</div><h1>Quiz master</h1><p>Keep the game moving from here.</p></div><div id="host-player-count" class="player-count">0 PLAYERS</div></div>
+      <div class="host-grid">
+        <section id="quiz-master-modal" class="host-panel clue-panel">
+          <div class="panel-heading"><div><span class="panel-kicker">ON THE BOARD</span><h2>Current clue</h2></div><span class="panel-badge">LIVE</span></div>
+          <div class="clue-block"><h3>CLUE</h3><p id="quiz-master-question">Waiting for a clue to be selected.</p></div>
+          <div class="answer-block"><h3>CORRECT RESPONSE</h3><p id="quiz-master-answer">The response will appear here.</p></div>
+          <div id="quiz-master-buzzed-in" class="host-buzz" aria-live="polite">Waiting for a buzz</div>
+          <div id="quiz-master-wager" class="host-wager" style="display: none"></div>
+          <div class="judging-actions"><button id="quiz-master-award-points" class="judge-button judge-button--correct" type="button" disabled>✓ <span>Correct</span></button><button id="quiz-master-remove-points" class="judge-button judge-button--incorrect" type="button" disabled>× <span>Incorrect</span></button></div>
+          <div class="secondary-actions"><button id="quiz-master-reset-buzzers" type="button">Reset buzzers</button><button id="quiz-master-close-question" type="button">Close clue</button></div>
+        </section>
+        <aside class="host-sidebar">
+          <section id="edit-scores-container" class="host-panel scores-panel"><div class="panel-heading"><div><span class="panel-kicker">AT THE PODIUM</span><h2>Players &amp; scores</h2></div></div><div id="player-scores"></div></section>
+          <section class="host-panel rounds-panel"><span class="panel-kicker">GAME FLOW</span><h2>Round controls</h2><p>Move on when the board is complete.</p><div class="round-actions"><button id="advance-to-double-jeopardy-btn" type="button">Double Jeopardy <span>→</span></button><button id="advance-to-final-jeopardy-btn" type="button">Final Jeopardy <span>→</span></button><button id="show-final-question-btn" type="button" style="display: none">Show final clue <span>→</span></button><button id="show-final-answer-btn" type="button" style="display: none">Reveal responses <span>→</span></button></div><div id="quiz-master-wager-list"></div></section>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- Shared board overlays and sounds. -->
+  <div id="question-modal" style="display: none">
+    <div id="modal-content">
+      <div id="buzzed-in-info" style="display: none"></div>
+      <div id="question-placeholder"></div>
+      <div id="timer-display" class="timer-display" style="font-size: 2em; display: none"></div>
+      <div id="final-jeopardy-answers" style="display: none"></div>
+      <div id="wagered-players" style="display: none"></div>
+    </div>
+  </div>
+  <audio id="ding-sound" src="/sounds/ding.mp3"></audio>
+  <audio id="daily-double-sound" src="/sounds/daily_double.mp3"></audio>
+  <audio id="times-up-sound" src="/sounds/times_up.mp3"></audio>
+  <audio id="final-jeopardy-sound" src="/sounds/final_jeopardy.mp3"></audio>
+  <audio id="board-fill-sound" src="/sounds/board_fill.mp3"></audio>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/voice.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

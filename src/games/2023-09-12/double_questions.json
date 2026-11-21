@@ -1,0 +1,187 @@
+{
+    "categories": [
+        {
+            "name": "QUITE A FOX",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "From 2000 to 2006, Vicente Fox was in the news as president of this country",
+                    "answer": "Mexico"
+                },
+                {
+                    "value": 800,
+                    "question": "General Cornwallis called this commander of the Continental Army \"The Old Fox\"",
+                    "answer": "George Washington"
+                },
+                {
+                    "value": 1200,
+                    "question": "Early in her career this star of hits like \"Independence Day\" & \"Kill Bill\" was a dancer on \"Soul Train\"",
+                    "answer": "Vivica Fox",
+                    "image": "2023-09-12/1_1200.jpg"
+                },
+                {
+                    "value": 1600,
+                    "question": "Former teacher Virginia Foxx is the U.S. rep from this state's 5th district which includes Tobaccoville & Winston-Salem",
+                    "answer": "North Carolina"
+                },
+                {
+                    "value": 2000,
+                    "question": "The 19th century Fox sisters played an important role in this -ism that gave people hope of communicating with the dead",
+                    "answer": "Spiritualism"
+                }
+            ]
+        },
+        {
+            "name": "THE SPORTING LIFE",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Driver Richard Petty won his 200th & last NASCAR race on July 4, 1984 at this Florida locale",
+                    "answer": "Daytona (Beach)"
+                },
+                {
+                    "value": 800,
+                    "question": "The sin bin is another name for this place where a hockey player goes to wait out an infraction",
+                    "answer": "the penalty box"
+                },
+                {
+                    "value": 1200,
+                    "question": "Named for the 3-decade president of its gov. body, this tourney's top prize was once called the Jules Rimet Trophy",
+                    "answer": "the (FIFA) World Cup"
+                },
+                {
+                    "value": 1600,
+                    "question": "The target for this sport measures 12 feet across & is called a house",
+                    "answer": "curling",
+                    "image": "2023-09-12/2_1600.jpg"
+                },
+                {
+                    "value": 2000,
+                    "question": "From 1976 to 1980 this alliteratively named Swede won 5 straight singles titles at Wimbledon",
+                    "answer": "Björn Borg"
+                }
+            ]
+        },
+        {
+            "name": "INFLUENZA",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "Influenza is caused by these infectious microbes, so antibiotics won't help",
+                    "answer": "viruses"
+                },
+                {
+                    "value": 800,
+                    "question": "Canine influenza was first identified in 2004 among these racing dogs",
+                    "answer": "greyhounds"
+                },
+                {
+                    "value": 1200,
+                    "question": "Research has linked influenza pandemics to this global weather event, El Niño's counterpart",
+                    "answer": "La Niña"
+                },
+                {
+                    "value": 1600,
+                    "question": "Early reports of this \"national\" flu appeared in the uncensored press of the country, which was neutral in WWI",
+                    "answer": "the Spanish flu"
+                },
+                {
+                    "value": 2000,
+                    "question": "Flu strains are determined by the makeup of 2 antigens known by these 2 letters, as in _1_1",
+                    "answer": "H & N"
+                }
+            ]
+        },
+        {
+            "name": "GEORGIA ON MY MIND",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "It should come as no surprise that this is Georgia's state fruit",
+                    "answer": "peach"
+                },
+                {
+                    "value": 800,
+                    "question": "In early April, Augusta played host to this",
+                    "answer": "the Masters",
+                    "image": "2023-09-12/4_800.jpg"
+                },
+                {
+                    "value": 1200,
+                    "question": "In 1864 Sherman's march to the sea ended with the capture of this port city, Georgia's colonial capital",
+                    "answer": "Savannah"
+                },
+                {
+                    "value": 1600,
+                    "question": "The subject of a 2019 film, he was eventually commended by the governor for saving lives in the 1996 Olympics bombing",
+                    "answer": "Richard Jewell"
+                },
+                {
+                    "value": 2000,
+                    "question": "In 1998 a National Prisoner of War Museum was dedicated at this site of a notorious military Civil War prison",
+                    "answer": "Andersonville"
+                }
+            ]
+        },
+        {
+            "name": "PLAY PEOPLE",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "A seducing rake in 1675's \"The Country Wife\" is named this, like Little Jack in the corner",
+                    "answer": "Horner"
+                },
+                {
+                    "value": 800,
+                    "question": "He based Prince Paul, who says witty things like \"It is so exhausting not to talk\", on his Irish college tutor",
+                    "answer": "Oscar Wilde"
+                },
+                {
+                    "value": 1200,
+                    "question": "Queen Hecuba has a lot to say in Euripides' play about the suffering women of this city defeated by the Greeks",
+                    "answer": "Troy"
+                },
+                {
+                    "value": 1600,
+                    "question": "Julie Christie & Amanda Donohoe have played the alluring Yelena, who shakes things up in this playwright's \"Uncle Vanya\"",
+                    "answer": "Chekhov"
+                },
+                {
+                    "value": 2000,
+                    "question": "\"Angels in America\" has characters both heavenly, such as the angel, & earthly, like the vision of this woman executed in 1953",
+                    "answer": "(Ethel) Rosenberg"
+                }
+            ]
+        },
+        {
+            "name": "STUCK IN THE MIDDLE WORD WITH YOU",
+            "questions": [
+                {
+                    "value": 400,
+                    "question": "From the Latin for \"middle\", it's definitely smaller than large",
+                    "answer": "medium"
+                },
+                {
+                    "value": 800,
+                    "question": "In 1924 Rogers Hornsby's was .424",
+                    "answer": "(his batting) average"
+                },
+                {
+                    "value": 1200,
+                    "question": "In the sequence 1, 3, 4, 8, 9, 4 is this, like a highway strip",
+                    "answer": "median"
+                },
+                {
+                    "value": 1600,
+                    "question": "To intend something, or to be malicious",
+                    "answer": "mean"
+                },
+                {
+                    "value": 2000,
+                    "question": "If you're as far away from one place as another, you're this 11-letter word",
+                    "answer": "equidistant"
+                }
+            ]
+        }
+    ]
+}

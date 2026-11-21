@@ -1,0 +1,188 @@
+{
+    "categories": [
+        {
+            "name": "IN YOUR ELEMENT",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "It's the element Hg & it's a god",
+                    "answer": "mercury"
+                },
+                {
+                    "value": 400,
+                    "question": "Traces of Pb, this element, are found in everyday substances like old house paint, where they can be dangerous",
+                    "answer": "lead"
+                },
+                {
+                    "value": 600,
+                    "question": "Most of what we call this elemental foil is actually made with aluminum",
+                    "answer": "tin"
+                },
+                {
+                    "value": 800,
+                    "question": "Consuming too much of this element, atomic number 11, can lead to high blood pressure",
+                    "answer": "sodium"
+                },
+                {
+                    "value": 1000,
+                    "question": "Time to find out who's got the big mo, & this big Mo helps stimulate chemical reactions that get rid of sulfur in petroleum",
+                    "answer": "molybdenum"
+                }
+            ]
+        },
+        {
+            "name": "BUILDING, AMERICA",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Home to the Los Angeles Philharmonic, the striking concert hall seen here is named for this man",
+                    "answer": "Walt Disney",
+                    "image": "2023-09-15//2_200.jpg"
+                },
+                {
+                    "value": 400,
+                    "question": "In September 1930 former governor Alfred E. Smith laid the cornerstone for this building that would top off at 103 stories",
+                    "answer": "the Empire State Building"
+                },
+                {
+                    "value": 600,
+                    "question": "His 1930s design of the Johnson Wax HQ building in Wisconsin included the great workroom with its \"lily pad\" columns",
+                    "answer": "Frank Lloyd Wright"
+                },
+                {
+                    "value": 800,
+                    "question": "On a clear day you can see Illinois, Indiana & Michigan from the skydeck of this building on South Wacker Drive",
+                    "answer": "the Willis Tower"
+                },
+                {
+                    "value": 1000,
+                    "question": "Originally the Union Gospel Tabernacle, it was home to the Grand Ole Opry from 1943 to 1974",
+                    "answer": "Ryman Auditorium",
+                    "image": "2023-09-15//2_1000.jpg"
+                }
+            ]
+        },
+        {
+            "name": "AGATHA ALL ALONG",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "At one point in this Agatha Christie book, the Karnak is anchored at Abu Simbel",
+                    "answer": "Death on the Nile"
+                },
+                {
+                    "value": 400,
+                    "question": "Agatha Christie brought this brilliant Belgian to life in \"The Mysterious Affair at Styles\", her debut novel",
+                    "answer": "Hercule Poirot"
+                },
+                {
+                    "value": 600,
+                    "question": "Though her first name is Jane, the Agatha Christie detective is usually just called this",
+                    "answer": "Miss Marple"
+                },
+                {
+                    "value": 800,
+                    "question": "A young woman named Victoria Jones gets embroiled in a mystery in Agatha's novel \"They Came to\" this Iraqi city",
+                    "answer": "Baghdad"
+                },
+                {
+                    "value": 1000,
+                    "question": "More than 460 actors & actresses have appeared in this play that originated as a request of the BBC for Queen Mary",
+                    "answer": "The Mousetrap"
+                }
+            ]
+        },
+        {
+            "name": "SONG BIRDS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "\"Maybe you're just like my mother, she's never satisfied\" is from this song in \"Purple Rain\"",
+                    "answer": "\"When Doves Cry\""
+                },
+                {
+                    "value": 400,
+                    "question": "John Mayer endured these carrion eaters \"hiding right outside my door... They've never gone this long without a kill before\"",
+                    "answer": "vultures",
+                    "image": "2023-09-15//4_400.jpg"
+                },
+                {
+                    "value": 600,
+                    "question": "\"I'll raise you like a\" this mythical bird, sang Fall Out Boy, who rhymed it with remix",
+                    "answer": "a phoenix"
+                },
+                {
+                    "value": 800,
+                    "question": "In 2015 Lana Del Rey did croon this melancholy tune whose title refers to a farewell or final performance",
+                    "answer": "a \"Swan Song\""
+                },
+                {
+                    "value": 1000,
+                    "question": "In the 1960s Fleetwood Mac had an international hit with their song about one of these seabirds; Coleridge put one in a poem",
+                    "answer": "an albatross"
+                }
+            ]
+        },
+        {
+            "name": "CAT LOVERS",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Some of this empress' favorite cats were said to be Russian Blues, naturally, & they had the run of the Winter Palace",
+                    "answer": "Catherine the Great"
+                },
+                {
+                    "value": 400,
+                    "question": "Inky cat footprints are found in the writings of this 19th century British founder of modern nursing who owned dozens",
+                    "answer": "Nightingale"
+                },
+                {
+                    "value": 600,
+                    "question": "Not satisfied with your basic kitty, Salvador Dalí owned Babou, one of these wild cats of Central & South America",
+                    "answer": "an ocelot",
+                    "image": "2023-09-15//5_600.jpg"
+                },
+                {
+                    "value": 800,
+                    "question": "This American author had a beloved pet named Catterina, who we hope was not the inspiration for his horror tale \"The Black Cat\"",
+                    "answer": "Poe"
+                },
+                {
+                    "value": 1000,
+                    "question": "This gorilla famous for learning sign language once adopted a kitten that she cared for & named \"All Ball\"",
+                    "answer": "Koko"
+                }
+            ]
+        },
+        {
+            "name": "FIRE Z",
+            "questions": [
+                {
+                    "value": 200,
+                    "question": "Chisel the Z from an abundant mineral & it becomes this liquid measure equal to one-fourth of a gallon",
+                    "answer": "a quart (from quartz)"
+                },
+                {
+                    "value": 400,
+                    "question": "Take Z beer away from a word for a heavy drinker & get this person at a sporting event voicing their displeasure",
+                    "answer": "booer (from boozer)"
+                },
+                {
+                    "value": 600,
+                    "question": "Pop the Z off a pimple & get this Stephen King title",
+                    "answer": "It (from zit)"
+                },
+                {
+                    "value": 800,
+                    "question": "Deny the Z of a ballroom dance & it becomes this first name of a 19th century U.S. poet",
+                    "answer": "Walt (from waltz)"
+                },
+                {
+                    "value": 1000,
+                    "question": "Take the Z off the case in a type of mystery novel with little violence & it becomes this word for shy",
+                    "answer": "coy (from cozy)"
+                }
+            ]
+        }
+    ]
+}
